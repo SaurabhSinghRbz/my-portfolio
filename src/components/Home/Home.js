@@ -20,13 +20,13 @@ function Home() {
 
               <h6 className="heading-name">
                 I am
-                <strong className="main-name"> Shivam Singh</strong>
+                <strong className="main-name"> Saurabh Singh</strong>
               </h6>
               <h6 className="sub-heading-name">
                 <strong>FULL STACK WEB DEVELOPER</strong>
               </h6>
               <h4 className="sub-heading-name">
-                From 
+                From
                 <strong className="main-name"> Mirzapur, Uttar Pradesh</strong>
               </h4>
               <div style={{ paddingLeft: 45, textAlign: "left" }}>

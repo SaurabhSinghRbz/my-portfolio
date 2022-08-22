@@ -15,7 +15,7 @@ const ContectLogo = () => {
         <ul className="home-about-social-linksTwo">
           <li className="social-iconsTwo">
             <a
-              href="https://github.com/shivam-singh-au17"
+              href="https://github.com/SaurabhSinghRbz"
               target="_blank"
               rel="noreferrer"
               className="icon-colourTwo  home-social-iconsTwo"
@@ -25,7 +25,7 @@ const ContectLogo = () => {
           </li>
           <li className="social-iconsTwo">
             <a
-              href="https://www.linkedin.com/in/shivamsingh4458/"
+              href="https://www.linkedin.com/in/saurabh-singh-8a715b220/"
               target="_blank"
               rel="noreferrer"
               className="icon-colourTwo  home-social-iconsTwo"
@@ -53,7 +53,7 @@ const ContectLogo = () => {
           </li>
           <li className="social-iconsTwo">
             <a
-              href="https://www.instagram.com/shivamsingh9350/"
+              href="https://www.instagram.com/saurabh.1602/"
               target="_blank"
               rel="noreferrer"
               className="icon-colourTwo home-social-iconsTwo"

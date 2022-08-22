@@ -38,7 +38,7 @@ function Contact() {
                                 >
                                     <IoCall />
                                 </span>
-                                <span className="link-text-css" onClick={() => setCallme(true)}>+91 6306518466<span style={{ opacity: 0 }}>916306518466</span></span>
+                                <span className="link-text-css" onClick={() => setCallme(true)}>+91 8576858692<span style={{ opacity: 0 }}>918576858692</span></span>
                             </li>
                             <li className="social-icons-contect third">
                                 <MyModal
@@ -51,7 +51,7 @@ function Contact() {
                                 >
                                     <CgMail />
                                 </span>
-                                <span className="link-text-css" onClick={() => setModalShow(true)}>shivamsingh4458@gmail.com<span style={{ opacity: 0 }}>|||</span></span>
+                                <span className="link-text-css" onClick={() => setModalShow(true)}>singhsaurabh162000@gmail.com<span style={{ opacity: 0 }}>|||</span></span>
                             </li>
                             <li className="social-icons-contect fifth">
                                 <a
