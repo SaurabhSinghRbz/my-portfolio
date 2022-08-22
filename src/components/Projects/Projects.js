@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle2 from "../Particle2";
+// import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
 import project01 from "../../Assets/Projects/project01.png";
@@ -15,7 +15,7 @@ import project08 from "../../Assets/Projects/project08.png";
 function Projects() {
   return (
     <div className="project-background ">
-      <Particle2 />
+      {/* <Particle2 /> */}
       <Container fluid className="project-section">
         <Container>
           <h1 className="project-heading">
@@ -25,7 +25,6 @@ function Projects() {
             Here are a few projects I've worked on recently.
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
             <Col md={6} className="project-card first-blog">
               <ProjectCard
                 imgPath={project02}
@@ -98,7 +97,6 @@ function Projects() {
               />
             </Col>
 
-
             <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={project07}
@@ -111,7 +109,6 @@ function Projects() {
               />
             </Col>
 
-
             <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={project08}
@@ -123,7 +120,6 @@ function Projects() {
                 demoLink="https://shivam-singh-au17.github.io/ColorGame/"
               />
             </Col>
-
           </Row>
         </Container>
       </Container>
