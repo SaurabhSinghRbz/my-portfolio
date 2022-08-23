@@ -64,7 +64,7 @@ const Message = (props) => {
         <Modal.Body className="Home-Message-Img">
           <Form
             style={{ padding: "20px 50px" }}
-            action="https://formspree.io/f/xyylaeoa"
+            action="https://formspree.io/f/xjvzkgyd"
             method="POST"
           >
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
