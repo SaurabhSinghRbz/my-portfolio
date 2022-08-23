@@ -418,7 +418,7 @@ html {
   cursor: pointer;
   position: relative !important;
   display: inline-block !important;
-  width: 65px !important;
+  min-width: 65px !important;
   height: 65px !important;
   margin: 25px;
   /* text-align: center !important; */
@@ -465,12 +465,13 @@ html {
   padding-left: 15px;
   list-style: none;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
 .link-text-css {
-  font-size: 1.6em !important;
+  text-align: left;
+  font-size: 1.3em !important;
   color: white;
   cursor: pointer;
   letter-spacing: 2px;
