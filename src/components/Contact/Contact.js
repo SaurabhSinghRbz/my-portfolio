@@ -57,7 +57,7 @@ function Contact() {
               </li>
               <li className="social-icons-contect fifth">
                 <a
-                  href="https://github.com/shivam-singh-au17"
+                  href="https://github.com/SaurabhSinghRbz"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -68,9 +68,9 @@ function Contact() {
                   className="link-text-css"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/shivam-singh-au17"
+                  href="https://github.com/SaurabhSinghRbz"
                 >
-                  github.com/shivam-singh-au17
+                  github.com/SaurabhSinghRbz
                 </a>
               </li>
             </ul>
@@ -79,7 +79,7 @@ function Contact() {
             <ul className="home-about-social-links">
               <li className="social-icons-contect second">
                 <a
-                  href="https://www.linkedin.com/in/shivamsingh4458/"
+                  href="https://www.linkedin.com/in/saurabh-singh-8a715b220/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -90,15 +90,15 @@ function Contact() {
                   className="link-text-css"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.linkedin.com/in/shivamsingh4458/"
+                  href="https://www.linkedin.com/in/saurabh-singh-8a715b220/"
                 >
-                  linkedin.com/shivamsingh4458
+                  linkedin.com/in/saurabh-singh-8a715b220/
                   <span style={{ opacity: 0 }}>||</span>
                 </a>
               </li>
               <li className="social-icons-contect fourth">
                 <a
-                  href="https://twitter.com/SHIVAMSINGH4458"
+                  href="https://twitter.com/Saurabh162000"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -109,9 +109,9 @@ function Contact() {
                   className="link-text-css"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://twitter.com/SHIVAMSINGH4458"
+                  href="https://twitter.com/Saurabh162000"
                 >
-                  twitter.com/SHIVAMSINGH4458
+                  twitter.com/Saurabh162000
                   <span style={{ opacity: 0 }}>|</span>
                 </a>
               </li>

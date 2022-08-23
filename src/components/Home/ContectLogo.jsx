@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import MyModal from "./Modal";
 import Callme from "./Callme";
-import { IoCall } from "react-icons/io5";
+import { IoCall, IoLogoTwitter } from "react-icons/io5";
 
 const ContectLogo = () => {
   const [modalShow, setModalShow] = React.useState(false);
@@ -31,6 +31,16 @@ const ContectLogo = () => {
               className="icon-colourTwo  home-social-iconsTwo"
             >
               <FaLinkedinIn />
+            </a>
+          </li>
+          <li className="social-iconsTwo">
+            <a
+              href="https://twitter.com/Saurabh162000"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-colourTwo home-social-iconsTwo"
+            >
+              <IoLogoTwitter />
             </a>
           </li>
           <li className="social-iconsTwo">
@@ -61,6 +71,7 @@ const ContectLogo = () => {
               <AiFillInstagram />
             </a>
           </li>
+
         </ul>
       </span>
     </>
