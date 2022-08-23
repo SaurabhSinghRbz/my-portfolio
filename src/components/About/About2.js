@@ -12,7 +12,7 @@ function About2() {
                         </h1>
                         <p className="home-about-body">
                             <span className="myabout first-about">
-                                Hi Everyone, I am <b className="purple">Saurabh Singh </b> Full Stack Web Developer based in <b className="purple">Lucknow, (U.P.), India. </b> I have a passion for coding and get most enjoyment from <b className="purple"> solving problems </b> by writing elegant/maintainable code and sharing knowledge. I love learning so I'm always keeping up to date by <b className="purple"> watching conference talks, listening to podcasts and reading blog posts. </b>
+                                Hi Everyone, I am <b className="purple">Saurabh Singh </b> Full Stack Web Developer based in <b className="purple">Sonbhadra, (U.P.), India. </b> I have a passion for coding and get most enjoyment from <b className="purple"> solving problems </b> by writing elegant/maintainable code and sharing knowledge. I love learning so I'm always keeping up to date by <b className="purple"> watching conference talks, listening to podcasts and reading blog posts. </b>
                             </span>
                             <br />
                             <br />
