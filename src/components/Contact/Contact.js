@@ -9,6 +9,7 @@ import { MdMessage } from "react-icons/md";
 import MyModal from "./Modal";
 import Callme from "./Callme";
 import Message from "./Message";
+import Footer from "../Footer";
 
 function Contact() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -135,6 +136,7 @@ function Contact() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }
