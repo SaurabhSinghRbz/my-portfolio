@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import MyModal from "./Modal";
@@ -61,17 +61,6 @@ const ContectLogo = () => {
               <IoCall />
             </span>
           </li>
-          <li className="social-iconsTwo">
-            <a
-              href="https://www.instagram.com/saurabh.1602/"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colourTwo home-social-iconsTwo"
-            >
-              <AiFillInstagram />
-            </a>
-          </li>
-
         </ul>
       </span>
     </>
