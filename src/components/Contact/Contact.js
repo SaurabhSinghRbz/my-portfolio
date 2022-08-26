@@ -52,7 +52,7 @@ function Contact() {
                   className="link-text-css"
                   onClick={() => setModalShow(true)}
                 >
-                  singhsaurabh162000@gmail.com
+                  singhsaurabh1622000@gmail.com
                   <span style={{ opacity: 0 }}>|||</span>
                 </span>
               </li>
