@@ -9,8 +9,8 @@ function About() {
       <div className="about-background">
         {/* <Particle /> */}
         <About2 />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }
