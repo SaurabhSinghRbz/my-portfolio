@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiHashnode } from "react-icons/si";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
@@ -42,12 +43,22 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/saurabh-singh-8a715b220/"
+                href="https://www.linkedin.com/in/saurabh-singh-rbz1602/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://hashnode.com/@Saurabh1602"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiHashnode />
               </a>
             </li>
           </ul>
