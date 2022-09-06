@@ -73,6 +73,7 @@ function Projects() {
               />
             </Col>
 
+
             {/* <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={project05}
