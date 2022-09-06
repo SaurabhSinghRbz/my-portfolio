@@ -17,7 +17,7 @@ function About2() {
                             <br />
                             <br />
                             <span className="myabout second-about">
-                                I am fluent in classics like <i> <b className="purple"> Javascript, Python and MERN stack </b> </i> and I love learning about new technologies, what problems are they solving and How can I use them to <b className="purple"> build better and scalable products. </b>
+                                I am fluent in classics like <i> <b className="purple"> Javascript and MERN stack </b> </i> and I love learning about new technologies, what problems are they solving and How can I use them to <b className="purple"> build better and scalable products. </b>
                             </span>
                             <br />
                             <br />
