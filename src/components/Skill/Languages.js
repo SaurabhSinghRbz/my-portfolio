@@ -11,9 +11,9 @@ function Languages() {
             <Col xs={4} md={2} className="tech-icons">
                 <DiJavascript1 /><span>Javascript</span>
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            {/* <Col xs={4} md={2} className="tech-icons">
                 <DiPython /><span>Python</span>
-            </Col>
+            </Col> */}
         </Row>
     );
 }

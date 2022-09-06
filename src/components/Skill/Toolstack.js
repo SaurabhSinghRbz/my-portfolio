@@ -5,6 +5,7 @@ import {
   SiPostman,
   SiHeroku,
   SiFigma,
+  SiChakraui,
 } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
 import {
@@ -29,9 +30,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <IoLogoVercel /><span>Vercel</span>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiFigma /><span>Figma</span>
-      </Col>
+      </Col> */}
     </Row>
   );
 }

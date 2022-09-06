@@ -26,29 +26,29 @@ function Skill() {
             </h1>
 
             <h1 className="project-heading">
-              <strong className="purple">FrontEnd </strong> Tools
+              <strong className="purple">Tech </strong> Stack
             </h1>
 
             <FrontEnd />
 
-            <h1 className="project-heading">
+            {/* <h1 className="project-heading">
               Programming <strong className="purple"> Languages </strong>
             </h1>
 
-            <Languages />
+            <Languages /> */}
 
-            <h1 className="project-heading">
+            {/* <h1 className="project-heading">
               <strong className="purple">BackEnd </strong>Tools
             </h1>
 
-            <BackEnd />
+            <BackEnd /> */}
 
             <h1 className="project-heading">
-              <strong className="purple">Tools</strong>
+              <strong className="purple">My working</strong>Tools
             </h1>
             <Toolstack />
 
-            <Github />
+            {/* <Github /> */}
           </Container>
         </Container>
         <Footer />

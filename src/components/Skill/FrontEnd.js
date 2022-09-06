@@ -13,11 +13,19 @@ import {
     DiReact,
     DiNpm,
     DiBootstrap,
+    DiJavascript1,
+
 } from "react-icons/di";
+
+
+import { GiChakram } from "react-icons/gi"
 
 function FrontEnd() {
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiJavascript1 /><span>Javascript</span>
+            </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiHtml5 /><span>Html</span>
             </Col>
@@ -36,12 +44,14 @@ function FrontEnd() {
             <Col xs={4} md={2} className="tech-icons">
                 <DiBootstrap /><span>Bootstrap</span>
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+
+            
+            {/* <Col xs={4} md={2} className="tech-icons">
                 <SiTypescript /><span>Typescript</span>
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            </Col> */}
+            {/* <Col xs={4} md={2} className="tech-icons">
                 <SiSass /><span>Sass</span>
-            </Col>
+            </Col> */}
             {/* <Col xs={4} md={2} className="tech-icons">
                 <SiStyledComponents /><span>StyledComponents</span>
             </Col> */}
