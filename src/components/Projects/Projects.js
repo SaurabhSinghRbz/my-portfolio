@@ -25,7 +25,7 @@ function Projects() {
             Here are a few projects I've worked on recently.
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            <Col md={6} className="project-card first-blog">
+            {/* <Col md={6} className="project-card first-blog">
               <ProjectCard
                 imgPath={project02}
                 isBlog={false}
@@ -35,21 +35,21 @@ function Projects() {
                 link="https://github.com/shivam-singh-au17/ProjectMediumClone"
                 demoLink="https://mediumapp.vercel.app/"
               />
-            </Col>
+            </Col> */}
 
             <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={project01}
                 isBlog={false}
-                title="ONN Bikes 2.0"
-                tool=" HTML, CSS, JavaScript, Express.JS, MongoDB, NodeJS, EJS, Bootstrap "
-                description="This is another clone of my previous project Onnbikes.com In this project all the data is linked to the database and the whole website is built with the help of backend tools. It is a platform where bikes or scooters can rent bikes at the cheapest price with the most flexible daily, weekly, and monthly bike rental plans and all these facilities are available on our website too."
-                link="https://github.com/shivam-singh-au17/BackEndOnnBikes"
-                demoLink="https://onnbikes.herokuapp.com/"
+                title="India Today"
+                tool="  JavaScript, HTML, CSS, JSON ,DOM-Manipulation"
+                description="This project is clone of IndiaToday news websote. India Today is a 24-hour English language television network based in Noida, Uttar Pradesh that carries news, current affairs and business programming in India. The channel is owned by TV Today Network Ltd, which is a part of Living Media."
+                link="https://github.com/SaurabhSinghRbz/india-today-clone"
+                demoLink="https://india-today-clone.netlify.app/"
               />
             </Col>
 
-            <Col md={6} className="project-card">
+            {/* <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={project01}
                 isBlog={false}
@@ -59,21 +59,21 @@ function Projects() {
                 link="https://github.com/shivam-singh-au17/project_oonbikes"
                 demoLink="https://onnbikes.vercel.app/"
               />
-            </Col>
+            </Col> */}
 
             <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={project03}
                 isBlog={false}
-                title="Animoto"
-                tool=" HTML, CSS "
-                description="This website is a clone of Animoto.com and it is a cloud-based video creation service that produces video from photos, video clips, and music into video slideshows. This was the first project in my web development journey and it was made with just HTML and CSS. On our clone website, any user can see many types of video templates and can see the pricing of how much is charged for making a video."
-                link="https://github.com/shivam-singh-au17/Project_Damodar"
-                demoLink="https://project-damodar.vercel.app/"
+                title="MeanBUy"
+                tool="JavaScript, HTML, CSS, DOM-Manipulation, Localstorage "
+                description="This website is a clone of MeanBuy.com .MeanBuy is the future of online shopping. we let our customers Pay What They Want to Pay on a variety of retail products, ranging from women’s accessories to consumer electronics on MeanBuy.com."
+                link="https://github.com/SaurabhSinghRbz/project_MeanBuy"
+                demoLink="https://saurabhsinghrbz.github.io/project_MeanBuy/"
               />
             </Col>
 
-            <Col md={6} className="project-card second-blog">
+            {/* <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={project05}
                 isBlog={false}
@@ -83,9 +83,9 @@ function Projects() {
                 link="https://github.com/shivam-singh-au17/shravasti-by-shivam-singh"
                 demoLink="https://shravasti-by-shivam-singh.vercel.app/"
               />
-            </Col>
+            </Col> */}
 
-            <Col md={6} className="project-card second-blog">
+            {/* <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={project06}
                 isBlog={false}
@@ -95,9 +95,9 @@ function Projects() {
                 link="https://github.com/shivam-singh-au17/hackathon_App"
                 demoLink="https://hackathonapp.vercel.app/"
               />
-            </Col>
+            </Col> */}
 
-            <Col md={6} className="project-card second-blog">
+            {/* <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={project07}
                 isBlog={false}
@@ -107,17 +107,17 @@ function Projects() {
                 link="https://github.com/shivam-singh-au17/Color_Generator"
                 demoLink="https://shivam-singh-au17.github.io/Color_Generator/"
               />
-            </Col>
+            </Col> */}
 
             <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={project08}
                 isBlog={false}
-                title="Color Game"
-                tool=" HTML, CSS "
-                description="This is a kind of entertaining website where you can see whether you are able to write the letter of your name in the given time interval or not. In this game, where you move the mouse, the box will bright and it will be extinguished again after some time, then within that time you are able to write the word of your name or not, you can play this type of game here."
-                link="https://github.com/shivam-singh-au17/ColorGame"
-                demoLink="https://shivam-singh-au17.github.io/ColorGame/"
+                title="All Country Details"
+                tool="JavaScript, HTML, CSS, DOM-Manipulation "
+                description="This is my first webpage, which i made after my first two class of HTML and CSS. This webpage contains all sorts of useful information about every country packaged as convenient little country objects. It includes data from ISO 3166 (countries and states/subdivisions ), ISO 4217 (currency), and E.164 (phone numbers)."
+                link="https://github.com/SaurabhSinghRbz/All_Country_Details"
+                demoLink="https://allcountry-details.netlify.app/"
               />
             </Col>
           </Row>
