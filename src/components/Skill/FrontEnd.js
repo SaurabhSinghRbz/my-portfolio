@@ -4,8 +4,8 @@ import {
     SiRedux,
     SiTypescript,
     SiSass,
-    // SiStyledComponents,
-    // SiMaterialui,
+    SiStyledComponents,
+    SiMaterialui,
 } from "react-icons/si";
 import {
     DiHtml5,
@@ -18,7 +18,7 @@ import {
 } from "react-icons/di";
 
 
-import { GiChakram } from "react-icons/gi"
+// import { GiChakram } from "react-icons/gi"
 
 function FrontEnd() {
     return (
@@ -45,16 +45,16 @@ function FrontEnd() {
                 <DiBootstrap /><span>Bootstrap</span>
             </Col>
 
-            
+
             {/* <Col xs={4} md={2} className="tech-icons">
                 <SiTypescript /><span>Typescript</span>
             </Col> */}
             {/* <Col xs={4} md={2} className="tech-icons">
                 <SiSass /><span>Sass</span>
             </Col> */}
-            {/* <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" fontSize="14px !important">
                 <SiStyledComponents /><span>StyledComponents</span>
-            </Col> */}
+            </Col>
         </Row>
     );
 }
