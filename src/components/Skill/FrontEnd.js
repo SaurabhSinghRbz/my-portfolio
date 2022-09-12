@@ -52,8 +52,8 @@ function FrontEnd() {
             {/* <Col xs={4} md={2} className="tech-icons">
                 <SiSass /><span>Sass</span>
             </Col> */}
-            <Col xs={4} md={2} className="tech-icons" fontSize="14px !important">
-                <SiStyledComponents /><span>StyledComponents</span>
+            <Col xs={4} md={1} className="tech-icons">
+                <SiStyledComponents /><span style={{ fontSize: "15px" }}>StyledComponents</span>
             </Col>
         </Row>
     );
