@@ -1,12 +1,10 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-    SiRedux,
-    SiTypescript,
-    SiSass,
-    SiStyledComponents,
-    SiMaterialui,
-} from "react-icons/si";
+import { SiRedux, SiTypescript, SiSass, SiStyledComponents } from "react-icons/si";
+import { SiMaterialUi } from "react-icons/si";
+import chakraUi from "./chakraui.svg"
+
+
 import {
     DiHtml5,
     DiCss3,
@@ -18,7 +16,7 @@ import {
 } from "react-icons/di";
 
 
-// import { GiChakram } from "react-icons/gi"
+import { GiChakram } from "react-icons/gi"
 
 function FrontEnd() {
     return (
@@ -27,10 +25,10 @@ function FrontEnd() {
                 <DiJavascript1 /><span>Javascript</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiHtml5 /><span>Html</span>
+                <DiHtml5 /><span>HTML</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiCss3 /><span><br />Css</span>
+                <DiCss3 /><span><br />CSS</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiReact /><span>React</span>
@@ -39,7 +37,7 @@ function FrontEnd() {
                 <SiRedux /><span>Redux</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiNpm /><span><br />Npm</span>
+                <DiNpm /><span><br />NPM</span>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiBootstrap /><span>Bootstrap</span>
@@ -52,8 +50,17 @@ function FrontEnd() {
             {/* <Col xs={4} md={2} className="tech-icons">
                 <SiSass /><span>Sass</span>
             </Col> */}
+
+
+            <Col xs={4} md={2} className="tech-icons">
+                <>{chakraUi}</> <span>Sass</span>
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiMaterialUi /><span>Material Ui</span>
+            </Col>
             <Col xs={4} md={1} className="tech-icons">
-                <SiStyledComponents /><span style={{ fontSize: "15px" }}>StyledComponents</span>
+                <SiStyledComponents /><span>StyledComponents</span>
             </Col>
         </Row>
     );

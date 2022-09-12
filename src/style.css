@@ -793,16 +793,20 @@ html {
   color: #0095ff;
   font-size: 5em !important;
   margin: 20px !important;
-  padding: 0px 35px !important;
+  padding: 0px 10px !important;
   opacity: 0.93 !important;
   border: 2px solid rgba(255, 0, 170, 0.459) !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 20% !important;
+  border-radius: 20px !important;
   display: table !important;
-  box-shadow: 5px 5px 0px 5px rgba(255, 255, 255, 0.781) !important;
+  box-shadow: 3px 3px 0px 3px rgba(255, 255, 255, 0.781) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+}
+
+.tech-icons:hover {
+  cursor: pointer;
 }
 
 .tech-icons {
