@@ -397,6 +397,8 @@ html {
 .home-about-body {
   padding-top: 36px;
   font-size: 1.35em !important;
+  line-height: 1.7em !important;
+  letter-spacing: .02em;
   text-align: center;
 }
 
