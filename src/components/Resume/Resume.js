@@ -41,6 +41,7 @@ function Resume() {
                   "Problem Solving (Intermediate) Certificate (HackerRank)",
                   "Problem Solving (Basic) Certificate (HackerRank).",
                   "JavaScript (Basic) Certificate (HackerRank).",
+                  "React (Basic) Certificate (HackerRank).",
                   "Course on Computer Concept (NIELIT).",
                   "Internship on AutoCAD (Softpro India Pvt Ltd).",
                 ]}
