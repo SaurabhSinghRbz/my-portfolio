@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiRedux, SiTypescript, SiSass, SiStyledComponents } from "react-icons/si";
+import { SiRedux, SiTypescript, SiSass, SiStyledComponents, SiJson } from "react-icons/si";
 import { SiMaterialUi } from "react-icons/si";
 import chakraUi from "./chakraui.svg"
 
@@ -39,9 +39,7 @@ function FrontEnd() {
             <Col xs={4} md={2} className="tech-icons">
                 <DiNpm /><span><br />NPM</span>
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
-                <DiBootstrap /><span>Bootstrap</span>
-            </Col>
+
 
 
             {/* <Col xs={4} md={2} className="tech-icons">
@@ -51,16 +49,25 @@ function FrontEnd() {
                 <SiSass /><span>Sass</span>
             </Col> */}
 
-
             <Col xs={4} md={2} className="tech-icons">
-                {/* <img src={chakraUi} style={{ fontSize: "5em !important" }} /><span>Sass</span> */}
+                <SiMaterialUi /><span>MaterialUi</span>
             </Col>
 
             <Col xs={4} md={2} className="tech-icons">
-                <SiMaterialUi /><span>Material Ui</span>
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M12 0C5.352 0 0 5.352 0 12s5.352 12 12 12 12-5.352 12-12S18.648 0 12 0zm2.8 4.333c.13-.004.248.136.171.278l-3.044 5.58a.187.187 0 00.164.276h5.26c.17 0 .252.207.128.323l-9.22 8.605c-.165.154-.41-.063-.278-.246l4.364-6.021a.187.187 0 00-.151-.296H6.627a.187.187 0 01-.131-.32l8.18-8.123a.182.182 0 01.125-.056z"></path></svg>
+                <span>ChakraUi</span>
             </Col>
+
+
+            <Col xs={4} md={2} className="tech-icons">
+                <DiBootstrap /><span>Bootstrap</span>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiJson /><span>JSON</span>
+            </Col>
+
             <Col xs={4} md={1} className="tech-icons">
-                <SiStyledComponents /><span>StyledComponents</span>
+                <SiStyledComponents /><span style={{ fontSize: "0.24em", paddingLeft: "0", paddingRight: "0" }}>StyledComponents</span>
             </Col>
         </Row>
     );
