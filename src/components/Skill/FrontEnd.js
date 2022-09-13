@@ -53,7 +53,7 @@ function FrontEnd() {
 
 
             <Col xs={4} md={2} className="tech-icons">
-                <>{chakraUi}</> <span>Sass</span>
+                {/* <img src={chakraUi} style={{ fontSize: "5em !important" }} /><span>Sass</span> */}
             </Col>
 
             <Col xs={4} md={2} className="tech-icons">

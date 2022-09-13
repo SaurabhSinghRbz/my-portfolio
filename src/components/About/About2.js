@@ -12,17 +12,17 @@ function About2() {
                         </h1>
                         <p className="home-about-body">
                             <span className="myabout first-about">
-                                Hi Everyone, I am <b className="purple">Saurabh Singh </b> Full Stack Web Developer based in <b className="purple">Sonbhadra, (U.P.), India. </b> I have a passion for coding and get most enjoyment from <b className="purple"> solving problems </b> by writing elegant/maintainable code and sharing knowledge. I love learning so I'm always keeping up to date by <b className="purple"> watching conference talks, listening to podcasts and reading blog posts. </b>
+                                Hello, I am <b className="purple">Saurabh Singh</b>, Full Stack Web Developer. I am from Sonbhadra, (UP), India. I am an enthusiastic fresher seeking a career with a progressive organization to capitalize my skills and abilities in the ﬁeld of information technology and eager to learn new technologies and methodologies.
                             </span>
                             <br />
                             <br />
                             <span className="myabout second-about">
-                                I am fluent in classics like <i> <b className="purple"> Javascript and MERN stack </b> </i> and I love learning about new technologies, what problems are they solving and How can I use them to <b className="purple"> build better and scalable products. </b>
+                                I enjoy taking challenges and giving my best. My interest lies in problem solving and software development. I am a constant learner and I like interacting with people. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript. I build websites that delight and inform.
                             </span>
                             <br />
                             <br />
                             <span className="myabout third-about">
-                                I enjoy creating things that live on the internet, Whenever possible, I also apply my passion for developing products with <i> <b className="purple"> Modern Javascript Frameworks </b> </i>  like <i> <b className="purple"> Node.js and React.js. </b> </i> My goal is to always build products that provide <b className="purple"> pixel-perfect, performant experiences.</b>
+                                I enjoy creating things that live on the internet. I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I am an analytical, detail-oriented, results-driven graduate, passionate about Web development, and skilled with MERN Stack and other development tools.
                             </span>
                         </p>
                     </Col>
