@@ -8,11 +8,12 @@ function About2() {
                 <Row>
                     <Col md={12} className="home-about-description">
                         <h1 style={{ fontSize: "3em" }}>
-                            “About <span className="purple"> me” </span>
+                            <span className="purple">“About  me” </span>
                         </h1>
                         <p className="home-about-body">
                             <span className="myabout first-about">
-                                Hello, I am <b className="purple">Saurabh Singh</b>, Full Stack Web Developer. I am from Sonbhadra, (UP), India. I am an enthusiastic fresher seeking a career with a progressive organization to capitalize my skills and abilities in the ﬁeld of information technology and eager to learn new technologies and methodologies.
+                                {/* <b className="purple"></b> */}
+                                Hello, I am Saurabh Singh, Full Stack Web Developer. I'm from Sonbhadra, Uttar Pradesh, India. I'm an enthusiastic fresher, seeking a career with a progressive organization to capitalize my skills and abilities in the ﬁeld of information technology and eager to learn new technologies and methodologies.
                             </span>
                             <br />
                             <br />
