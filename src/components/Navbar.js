@@ -46,7 +46,7 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} >
-                <span style={pathname == "/" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Home</span>
+                <span style={pathname === "/" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Home</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -56,7 +56,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <span style={pathname == "/about" ? { color: "#0095ff", fontWeight: "bold" } : {}}>About</span>
+                <span style={pathname === "/about" ? { color: "#0095ff", fontWeight: "bold" } : {}}>About</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -66,7 +66,7 @@ function NavBar() {
                 to="/skill"
                 onClick={() => updateExpanded(false)}
               >
-                <span style={pathname == "/skill" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Skills</span>
+                <span style={pathname === "/skill" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Skills</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -76,7 +76,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <span style={pathname == "/project" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Projects</span>
+                <span style={pathname === "/project" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Projects</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -86,7 +86,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <span style={pathname == "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span>
+                <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -96,7 +96,7 @@ function NavBar() {
                 to="/blog"
                 onClick={() => updateExpanded(false)}
               >
-                <span style={pathname == "/blog" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Blogs</span>
+                <span style={pathname === "/blog" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Blogs</span>
               </Nav.Link>
             </Nav.Item> */}
 
@@ -106,7 +106,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <span style={pathname == "/contact" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Contact</span>
+                <span style={pathname === "/contact" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Contact</span>
               </Nav.Link>
             </Nav.Item>
 
