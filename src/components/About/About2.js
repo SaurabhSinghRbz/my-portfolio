@@ -13,12 +13,12 @@ function About2() {
                         <p className="home-about-body">
                             <span className="myabout first-about">
                                 {/* <b className="purple"></b> */}
-                                Hello, I am Saurabh Singh, Full Stack Web Developer. I'm from Sonbhadra, Uttar Pradesh, India. I'm an enthusiastic fresher, seeking a career with a progressive organization to capitalize my skills and abilities in the ﬁeld of information technology and eager to learn new technologies and methodologies.
+                                Hello, I am Saurabh Singh, Full Stack Web Developer. I'm from Sonbhadra, Uttar Pradesh, India. I'm an enthusiastic fresher, seeking a career with a progressive organization to capitalize on my skills and abilities in the ﬁeld of information technology, and eager to learn new technologies and methodologies.
                             </span>
                             <br />
                             <br />
                             <span className="myabout second-about">
-                                I enjoy taking challenges and giving my best. My interest lies in problem solving and software development. I am a constant learner and I like interacting with people. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript. I build websites that delight and inform.
+                                I enjoy taking challenges and giving my best. My interest lies in problem-solving and software development. I am a constant learner and I like interacting with people. I spend my whole day, practically every day, experimenting with HTML, CSS, and modern Javascript libraries like React, and Redux. I build websites that are delightful and informative.
                             </span>
                             <br />
                             <br />
