@@ -379,6 +379,12 @@ html {
   margin: auto;
 }
 
+@media (max-width: 420px) {
+  .home-about-section {
+    max-width: 95%;
+  }
+}
+
 .home-contect-section {
   position: relative !important;
   padding-bottom: 49px !important;
@@ -400,6 +406,7 @@ html {
   line-height: 1.7em !important;
   letter-spacing: .02em;
   text-align: center;
+  font-weight: normal;
 }
 
 .home-about-social {
