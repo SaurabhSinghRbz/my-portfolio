@@ -6,6 +6,7 @@ import Resumecontent from "./ResumeContent";
 import pdf from "../../Assets/Saurabh_Singh_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import Footer from "../Footer";
+import { FiExternalLink } from "react-icons/fi";
 
 function Resume() {
   return (
@@ -45,7 +46,9 @@ function Resume() {
                     href="https://www.hackerrank.com/certificates/7a90535d94b1"
                     target="_blank"
                   >
-                    Problem Solving (Intermediate) Certificate (HackerRank)
+                    Problem Solving (Intermediate) Certificate
+                    (HackerRank)&nbsp;
+                    <FiExternalLink />
                   </a>,
                   <a
                     rel="noreferrer"
@@ -53,7 +56,8 @@ function Resume() {
                     href="https://www.hackerrank.com/certificates/47be779d564d"
                     target="_blank"
                   >
-                    Problem Solving (Basic) Certificate (HackerRank)
+                    Problem Solving (Basic) Certificate (HackerRank)&nbsp;
+                    <FiExternalLink />
                   </a>,
                   <a
                     rel="noreferrer"
@@ -61,7 +65,8 @@ function Resume() {
                     href="https://www.hackerrank.com/certificates/0c3fd917ca64"
                     target="_blank"
                   >
-                    Rest API (Intermediate) Certificate (HackerRank)
+                    Rest API (Intermediate) Certificate (HackerRank)&nbsp;
+                    <FiExternalLink />
                   </a>,
                   <a
                     rel="noreferrer"
@@ -69,7 +74,8 @@ function Resume() {
                     href="https://www.hackerrank.com/certificates/1385df6df40e"
                     target="_blank"
                   >
-                    JavaScript (Basic) Certificate (HackerRank).
+                    JavaScript (Basic) Certificate (HackerRank)&nbsp;
+                    <FiExternalLink />
                   </a>,
                   <a
                     rel="noreferrer"
@@ -77,7 +83,8 @@ function Resume() {
                     href="https://www.hackerrank.com/certificates/908cf3f3a1f3"
                     target="_blank"
                   >
-                    React (Basic) Certificate (HackerRank)
+                    React (Basic) Certificate (HackerRank)&nbsp;
+                    <FiExternalLink />
                   </a>,
                   <a
                     rel="noreferrer"
@@ -85,7 +92,8 @@ function Resume() {
                     href="https://drive.google.com/file/d/1xQxnB_AbswpZEUuw3VOk21mO1l5BCw2_/view?usp=sharing"
                     target="_blank"
                   >
-                    Course on Computer Concept (NIELIT)
+                    Course on Computer Concept (NIELIT)&nbsp;
+                    <FiExternalLink />
                   </a>,
                   <a
                     rel="noreferrer"
@@ -93,7 +101,8 @@ function Resume() {
                     href="https://drive.google.com/file/d/193l22Tut4JgDHKVSpLbukTCRq__hL3Fk/view?usp=sharing"
                     target="_blank"
                   >
-                    Internship on AutoCAD (Softpro India Pvt Ltd).
+                    Internship on AutoCAD (Softpro India Pvt Ltd)&nbsp;
+                    <FiExternalLink />
                   </a>,
                   // <a href="" target="_blank"></a>,
                 ]}
@@ -113,9 +122,11 @@ function Resume() {
                 title="Vimala Inter College, Robertsganj, Sonbhadra (U.P.)"
                 // date="2019 - 2022"
                 content={[
-                  `Intermediate - (2018)`,
-                  "High School - (2016)",
-                  "Other - (2013 - 2015)"
+                  <a className="certificate_Links" href="https://drive.google.com/file/d/1WGx_kTahgh6pAjlBgJf5xpznHgDrhjAM/view?usp=sharing" target="_blank" rel="noreferrer">Intermediate - (2018)&nbsp;
+                    <FiExternalLink /></a>,
+                  <a className="certificate_Links" href="https://drive.google.com/file/d/1WOHvJ0pzZd7R_0hD1jA9IVfkKdGhWeiR/view?usp=sharing" target="_blank" rel="noreferrer">High School - (2016)&nbsp;
+                    <FiExternalLink /></a>,
+                  "Other - (2013 - 2015)",
                 ]}
               />
 

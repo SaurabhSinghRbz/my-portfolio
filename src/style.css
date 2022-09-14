@@ -921,7 +921,11 @@ html {
 
 .certificate_Links {
   color: white !important;
-  width: auto !important;
+}
+
+.certificate_Links>svg {
+  /* color: black; */
+  margin-top: -4px;
 }
 
 @media (max-width: 767px) {
