@@ -379,11 +379,6 @@ html {
   margin: auto;
 }
 
-@media (max-width: 420px) {
-  .home-about-section {
-    max-width: 95%;
-  }
-}
 
 .home-contect-section {
   position: relative !important;
@@ -402,12 +397,25 @@ html {
 
 .home-about-body {
   padding-top: 36px;
-  font-size: 1.35em !important;
-  line-height: 1.7em !important;
+  font-size: 1.38em !important;
+  line-height: 1.75em !important;
   letter-spacing: .02em;
   text-align: center;
-  font-weight: normal;
+  font-weight: lighter !important;
 }
+
+
+@media (max-width: 420px) {
+  .home-about-section {
+    max-width: 100%;
+  }
+
+  .home-about-body {
+    font-size: 1.2em !important;
+    line-height: 1.7em !important;
+  }
+}
+
 
 .home-about-social {
   text-align: center !important;
