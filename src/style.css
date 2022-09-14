@@ -405,17 +405,7 @@ html {
 }
 
 
-@media (max-width: 420px) {
-  .home-about-section {
-    max-width: 100%;
-  }
 
-
-  .home-about-body {
-    font-size: 1.05em !important;
-    line-height: 1.7em !important;
-  }
-}
 
 
 .home-about-social {
@@ -517,7 +507,7 @@ html {
 
 @media (max-width: 767px) {
   .my-img-home-div {
-    margin-left: 50px;
+    margin: auto;
     padding-top: 25px;
   }
 }
@@ -534,6 +524,7 @@ html {
   padding-inline-start: 0 !important;
   padding-left: 35px !important;
   cursor: pointer !important;
+
 }
 
 .home-social-iconsTwo {
@@ -546,7 +537,7 @@ html {
   line-height: 2em !important;
   background: rgba(0, 132, 255, 0.972) !important;
   border-radius: 50% !important;
-  /* transition: 0.5s !important; */
+  transition: 0.5s !important;
 }
 
 .home-social-iconsTwo::before {
@@ -578,7 +569,11 @@ html {
   display: inline-block !important;
   padding-right: 10px;
   padding-left: 10px;
+  margin-bottom: 10px;
+
 }
+
+
 
 .icon-colourTwo {
   color: #ffffff !important;
@@ -1145,6 +1140,21 @@ html {
   animation: fadeInUp 1s ease-in-out 0s forwards;
 }
 
+@media (max-width: 767px) {
+  .my-img-home-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+    padding-top: 25px;
+  }
+
+  .my-img-home-div>img {
+    max-width: 85%;
+    margin: auto;
+  }
+}
+
 .myabout {
   opacity: 0;
   animation: fadeInUp 1s ease-in-out 0s forwards;
@@ -1180,4 +1190,25 @@ html {
   font-size: 1rem !important;
   position: relative;
   top: -4px;
+}
+
+
+
+
+
+/*  media querries for mobile screen width max 420px */
+@media (max-width: 420px) {
+  .home-about-section {
+    max-width: 100%;
+  }
+
+
+  .home-about-body {
+    font-size: 1.05em !important;
+    line-height: 1.7em !important;
+  }
+
+  .home-content {
+    padding-top: 4rem !important;
+  }
 }
