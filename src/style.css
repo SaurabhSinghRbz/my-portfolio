@@ -919,6 +919,10 @@ html {
   padding-left: 80px !important;
 }
 
+.certificate_Links {
+  color: white !important;
+}
+
 @media (max-width: 767px) {
   .resume-left {
     padding-right: 15px !important;
