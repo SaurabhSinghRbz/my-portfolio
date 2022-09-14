@@ -135,7 +135,7 @@ html {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
+    padding: 1rem !important;
     font-size: 1.4rem !important;
     background-color: #270123 !important;
   }
@@ -1210,5 +1210,16 @@ html {
 
   .home-content {
     padding-top: 4rem !important;
+  }
+
+  .navbar {
+    width: 100% !important;
+    padding-left: 1rem !important;
+    padding-right: 0 !important;
+  }
+
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
