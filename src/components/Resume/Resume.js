@@ -29,7 +29,7 @@ function Resume() {
                 content={[
                   "Date - (2022) - Present",
                   "1200 hours of hands - on coding.",
-                  "100 hours for DSA.",
+                  "1000 hours for DSA.",
                   "50 hours for soft skills development.",
                   "3 collaborative projects and 30+ mini-projects.",
                 ]}
