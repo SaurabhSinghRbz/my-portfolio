@@ -921,6 +921,7 @@ html {
 
 .certificate_Links {
   color: white !important;
+  width: auto !important;
 }
 
 @media (max-width: 767px) {
@@ -937,7 +938,8 @@ html {
 
 .resume .resume-title {
   font-size: 2em;
-  font-weight: 700;
+  /* font-weight: 700; */
+  color: #0066ff;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -950,23 +952,26 @@ html {
 }
 
 .resume .resume-item .resume-title {
+  color: white;
   line-height: 18px;
-  font-size: 0.9em;
-  background: #0066ff;
-  padding: 8px 15px;
+  font-size: 1em;
+  /* background: #0066ff; */
+  padding: 0px 15px;
   display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
+  /* font-weight: 600; */
+  /* margin-bottom: 10px; */
+  text-align: left !important;
 }
 
 .resume .resume-item ul {
   padding-left: 20px;
-  text-align: justify;
+  text-align: left;
 }
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
   list-style: none;
+  font-size: 0.9em;
 }
 
 .resume .resume-item:last-child {
