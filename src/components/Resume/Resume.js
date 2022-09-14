@@ -40,6 +40,7 @@ function Resume() {
                 content={[
                   "Problem Solving (Intermediate) Certificate (HackerRank)",
                   "Problem Solving (Basic) Certificate (HackerRank).",
+                  "Rest API (Intermediate) Certificate (HackerRank)",
                   "JavaScript (Basic) Certificate (HackerRank).",
                   "React (Basic) Certificate (HackerRank).",
                   "Course on Computer Concept (NIELIT).",
