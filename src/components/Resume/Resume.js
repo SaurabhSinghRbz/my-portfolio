@@ -71,6 +71,15 @@ function Resume() {
                   <a
                     rel="noreferrer"
                     className="certificate_Links"
+                    href="https://www.hackerrank.com/certificates/fac38bf11f09"
+                    target="_blank"
+                  >
+                    JavaScript (Intermediate) Certificate (HackerRank)&nbsp;
+                    <FiExternalLink />
+                  </a>,
+                  <a
+                    rel="noreferrer"
+                    className="certificate_Links"
                     href="https://www.hackerrank.com/certificates/1385df6df40e"
                     target="_blank"
                   >
