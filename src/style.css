@@ -1262,7 +1262,7 @@ html {
   .Home-Call-Img>p,
   .Home-Mail-Call>p {
     text-align: left !important;
-    font-size: 1.2em !important;
+    font-size: 20px !important;
     margin-left: -30px !important;
   }
 }
