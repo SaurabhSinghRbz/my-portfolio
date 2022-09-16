@@ -79,6 +79,7 @@ html {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.5rem 2rem !important;
   font-size: 1.2rem !important;
+  box-shadow: rgb(255 0 200 / 27%) 0px 0px 100px -20px, rgba(63, 3, 75, 0.24) 0px 0px 60px -30px, rgba(165, 83, 150, 0.867) 0px -0px 6px 0px inset;
 }
 
 .navbar-toggler {
