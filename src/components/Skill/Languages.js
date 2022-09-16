@@ -1,9 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-    DiJavascript1,
-    DiPython,
-} from "react-icons/di";
+import { DiJavascript1 } from "react-icons/di";
 
 function Languages() {
     return (
@@ -11,9 +8,6 @@ function Languages() {
             <Col xs={4} md={2} className="tech-icons">
                 <DiJavascript1 /><span>Javascript</span>
             </Col>
-            {/* <Col xs={4} md={2} className="tech-icons">
-                <DiPython /><span>Python</span>
-            </Col> */}
         </Row>
     );
 }

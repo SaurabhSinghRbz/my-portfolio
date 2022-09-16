@@ -1,8 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiRedux, SiTypescript, SiSass, SiStyledComponents, SiJson } from "react-icons/si";
+import { SiRedux, SiStyledComponents, SiJson } from "react-icons/si";
 import { SiMaterialUi } from "react-icons/si";
-import chakraUi from "./chakraui.svg"
 
 
 import {
@@ -14,9 +13,6 @@ import {
     DiJavascript1,
 
 } from "react-icons/di";
-
-
-import { GiChakram } from "react-icons/gi"
 
 function FrontEnd() {
     return (
@@ -39,15 +35,6 @@ function FrontEnd() {
             <Col xs={4} md={2} className="tech-icons">
                 <DiNpm /><span><br />NPM</span>
             </Col>
-
-
-
-            {/* <Col xs={4} md={2} className="tech-icons">
-                <SiTypescript /><span>Typescript</span>
-            </Col> */}
-            {/* <Col xs={4} md={2} className="tech-icons">
-                <SiSass /><span>Sass</span>
-            </Col> */}
 
             <Col xs={4} md={2} className="tech-icons">
                 <SiMaterialUi /><span>MaterialUi</span>
