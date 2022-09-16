@@ -1246,4 +1246,23 @@ html {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
+}
+
+@media (max-width:420px) {
+  .modal-title {
+    font-size: 28px !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-left: 10px !important;
+  }
+
+  .Home-Call-Img>p,
+  .Home-Mail-Call>p {
+    text-align: left !important;
+    font-size: 1.4em !important;
+    margin-left: -45px !important;
+  }
 }

@@ -26,7 +26,7 @@ const MyModal = (props) => {
         <Modal.Body className="Home-Mail-Call">
           <p style={{ fontSize: "2.5em", color: "#FFFFFF" }}>
             <span style={{ opacity: "0" }}>-----</span>
-            {" singhsaurabh1622000@gmail.com "}
+            {"singhsaurabh1622000@gmail.com"}
           </p>
         </Modal.Body>
       </Modal>
