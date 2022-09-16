@@ -1,17 +1,7 @@
 import React from "react";
 import { SiRedux, SiStyledComponents, SiJson } from "react-icons/si";
 import { SiMaterialUi } from "react-icons/si";
-
-
-import {
-    DiHtml5,
-    DiCss3,
-    DiReact,
-    DiNpm,
-    DiBootstrap,
-    DiJavascript1,
-
-} from "react-icons/di";
+import { DiHtml5, DiCss3, DiReact, DiNpm, DiBootstrap, DiJavascript1 } from "react-icons/di";
 
 function FrontEnd() {
     return (

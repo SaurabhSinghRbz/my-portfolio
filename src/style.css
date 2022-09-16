@@ -844,7 +844,6 @@ html {
 
 .skillContainer>div>p {
   font-size: 25px;
-  /* padding: 0px 15px 1px 15px; */
   color: #ffffff;
   margin-top: 55px;
 }
@@ -900,7 +899,6 @@ html {
 
 
 .tech-icons:hover {
-  /* cursor: pointer; */
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 3px solid rgba(0, 195, 255, 0.589) !important;
