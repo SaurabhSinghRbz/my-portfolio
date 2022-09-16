@@ -14,21 +14,11 @@ function Skill() {
       {/* <Particle2 /> */}
       <div className="Skill-background">
         <Container fluid className="about-section">
-          <Container className="icon-fade">
-            <h1 style={{ fontSize: "2.6em", marginBottom: "50px" }}>
-              <u>
-                My{" "}
-                <span className="purple">
-                  {" "}
-                  <u>Skills</u>{" "}
-                </span>
-              </u>
+          <Container className="icon-fade" style={{ marginTop: "-50px" }}>
+            <h1 style={{ fontSize: "2.6em", marginBottom: "50px", marginTop: "0px !important" }}>
+              <strong className="purple"><u>My Skills</u></strong>
             </h1>
-
-            <h1 className="project-heading">
-              <strong className="purple">Tech </strong> Stack
-            </h1>
-
+            <h1 className="project-heading"><em>Tech Stack</em></h1>
             <FrontEnd />
 
             {/* <h1 className="project-heading">
@@ -44,7 +34,7 @@ function Skill() {
             <BackEnd /> */}
 
             <h1 className="project-heading">
-              <strong className="purple">My working</strong>Tools
+              <em>My Working Tools</em>
             </h1>
             <Toolstack />
 
