@@ -149,6 +149,7 @@ html {
 
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
+  padding-left: 1rem !important;
 }
 
 .logo {
@@ -1238,7 +1239,7 @@ html {
   .navbar {
     width: 100% !important;
     padding: 0.1rem !important;
-    padding-left: 1rem !important;
+    padding-left: 0 !important;
     padding-right: 0 !important;
   }
 
