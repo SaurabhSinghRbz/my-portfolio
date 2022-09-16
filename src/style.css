@@ -802,12 +802,12 @@ html {
   color: rgb(255, 255, 255) !important;
 }
 
-.tech-icons {
+/* .tech-icons {
   color: #0095ff;
   font-size: 5em !important;
   margin: 20px !important;
   padding: 0px 10px !important;
-  opacity: 0.93 !important;
+  opacity: 1 !important;
   border: 2px solid rgba(255, 0, 170, 0.459) !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -816,6 +816,57 @@ html {
   box-shadow: 3px 3px 0px 3px rgba(255, 255, 255, 0.781) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+} */
+
+.skillContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  /* grid-template-columns: repeat(4, 1fr); */
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+@media (min-width:500px) and (max-width:980px) {
+  .skillContainer {
+    width: 95%;
+  }
+}
+
+
+.skillContainer>div {
+  width: 190px;
+  height: 255px;
+  border: 2px solid rgba(255, 0, 170, 0.459) !important;
+  border-radius: 20px !important;
+  transition: all 0.4s ease 0s !important;
+  box-shadow: 3px 3px 0px 3px rgba(255, 255, 255, 0.781) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  overflow: hidden !important;
+}
+
+.skillContainer>div>:first-child {
+  color: #0095ff;
+  font-size: 80px;
+}
+
+.skillContainer>div>p {
+  font-size: 25px;
+  /* padding: 0px 15px 1px 15px; */
+  color: #ffffff;
+  margin-top: 55px;
+}
+
+.skillContainer>div {
+  cursor: pointer;
 }
 
 .tech-icons:hover {
@@ -826,13 +877,13 @@ html {
   position: relative;
 }
 
-.tech-icons span {
+/* .tech-icons span {
   font-size: 0.3em;
   padding: 0px 15px 1px 15px;
   color: #ffffff;
   position: relative;
   bottom: 35px;
-}
+} */
 
 .tech-icons::before {
   position: absolute;
@@ -870,11 +921,11 @@ html {
   }
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .tech-icons {
     margin: 15px !important;
   }
-}
+} */
 
 .tech-icons:hover {
   /* cursor: pointer; */
