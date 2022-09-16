@@ -50,7 +50,7 @@ function FrontEnd() {
                 <SiJson /><p>JSON</p>
             </div>
             <div className="tech-icons">
-                <SiStyledComponents /><p style={{ fontSize: "20px" }}>Styled Components</p>
+                <SiStyledComponents /><p style={{ fontSize: "18px" }}>Styled Components</p>
 
             </div>
         </div >
