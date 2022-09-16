@@ -1255,7 +1255,7 @@ html {
     display: flex !important;
     justify-content: center !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin: -15px !important;
     margin-left: 0px !important;
   }
 
