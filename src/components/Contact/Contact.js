@@ -48,13 +48,13 @@ function Contact() {
                 >
                   <CgMail />
                 </span>
-                <p
+                <span
                   className="link-text-css"
                   onClick={() => setModalShow(true)}
                 >
                   singhsaurabh1622000@gmail.com
-                  <span style={{ opacity: 0 }}>|||</span>
-                </p>
+                  <span style={{ opacity: 0 }}></span>
+                </span>
               </li>
               <li className="social-icons-contect fifth">
                 <a
@@ -113,7 +113,7 @@ function Contact() {
                   href="https://twitter.com/Saurabh162000"
                 >
                   twitter.com/Saurabh162000
-                  <span style={{ opacity: 0 }}>|</span>
+                  <span style={{ opacity: 0 }}>||</span>
                 </a>
               </li>
               <li className="social-icons-contect sixth">

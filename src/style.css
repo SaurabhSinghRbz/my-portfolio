@@ -420,7 +420,7 @@ html {
 .home-about-social-links {
   justify-content: center !important;
   padding-top: 15px !important;
-  display: inline-block !important;
+  /* display: inline-block !important; */
   position: relative !important;
   padding-inline-start: 0 !important;
 }
@@ -480,7 +480,7 @@ html {
   padding-left: 15px;
   list-style: none;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -510,8 +510,8 @@ html {
   
     .home-social-icons{
       margin: 20px 0;
-      height: 30px !important;
-      min-width: 30px !important;
+      height: 35px !important;
+      min-width: 35px !important;
       font-size: inherit !important;
       padding: 5px;
     }
