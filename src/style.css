@@ -1295,13 +1295,16 @@ html {
 }
 
 @media (max-width:420px) {
+  .modal-content>.modal-header{
+    font-size: 3em !important;
+  }
   .modal-title {
-    font-size: 28px !important;
+    /* font-size: 28px !important; */
     display: flex !important;
     justify-content: center !important;
     padding: 0 !important;
     margin: 0 !important;
-    margin-left: -20px !important;
+    /* margin-left: -20px !important; */
   }
 
   .Home-Call-Img>p,
@@ -1309,5 +1312,18 @@ html {
     text-align: left !important;
     font-size: 18px !important;
     margin-left: -30px !important;
+  }
+  .modal-body>form{
+    padding: 5px !important;
+  }
+  .modal-body>form label{
+    font-size: 0.7em !important;
+  }
+  .myMessageWarniingColor{
+display: inline-block;
+    margin-top: 20px;
+  }
+  .myMessageWarniing{
+    font-size: 0.6em !important;
   }
 }
