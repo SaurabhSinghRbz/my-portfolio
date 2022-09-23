@@ -490,12 +490,19 @@ html {
   color: white;
   cursor: pointer;
   letter-spacing: 2px;
-  position: relative;
-  bottom: 3px;
 }
 
 
 @media (max-width:420px){
+  .home-about-social>h1{
+    font-size: 2rem !important;
+  }
+  .home-contect-section>.row>:last-child{
+    margin-top: -30px !important;
+  }
+  .home-contect-section>.row>:last-child>:last-child{
+    margin-bottom: 80px !important;
+  }
   .home-about-social{
     max-width: 100% !important;
     overflow: hidden;
