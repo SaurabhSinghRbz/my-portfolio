@@ -1,5 +1,5 @@
 import React from "react";
-import { SiRedux, SiStyledComponents, SiJson } from "react-icons/si";
+import { SiRedux, SiStyledComponents, SiJson, SiAmericanexpress } from "react-icons/si";
 import { SiMaterialUi } from "react-icons/si";
 import { DiHtml5, DiCss3, DiReact, DiNpm, DiBootstrap, DiJavascript1, DiMongodb, DiNodejs } from "react-icons/di";
 
@@ -29,7 +29,7 @@ function FrontEnd() {
                 <DiMongodb /><p>Mongodb</p>
             </div>
             <div className="tech-icons">
-                <SiRedux /><p>Redux</p>
+                <SiAmericanexpress /><p>Express</p>
             </div>
             <div className="tech-icons">
                 <DiNpm /><p>NPM</p>
