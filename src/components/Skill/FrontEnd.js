@@ -1,8 +1,7 @@
 import React from "react";
-import { SiRedux, SiStyledComponents, SiJson, SiAmericanexpress } from "react-icons/si";
-import { SiMaterialUi, SiExpress } from "react-icons/si";
+import { SiRedux, SiStyledComponents, SiJson } from "react-icons/si";
+import { SiMaterialUi } from "react-icons/si";
 import { DiHtml5, DiCss3, DiReact, DiNpm, DiBootstrap, DiJavascript1, DiMongodb, DiNodejs } from "react-icons/di";
-// import SiExpress from "react-icons/SiExpress";
 function FrontEnd() {
     return (
         <div className="skillContainer">
