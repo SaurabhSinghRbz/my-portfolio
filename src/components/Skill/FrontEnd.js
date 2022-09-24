@@ -1,7 +1,7 @@
 import React from "react";
 import { SiRedux, SiStyledComponents, SiJson } from "react-icons/si";
 import { SiMaterialUi } from "react-icons/si";
-import { DiHtml5, DiCss3, DiReact, DiNpm, DiBootstrap, DiJavascript1, DiMongodb } from "react-icons/di";
+import { DiHtml5, DiCss3, DiReact, DiNpm, DiBootstrap, DiJavascript1, DiMongodb, DiNodejs } from "react-icons/di";
 
 function FrontEnd() {
     return (
@@ -23,10 +23,10 @@ function FrontEnd() {
                 <SiRedux /><p>Redux</p>
             </div>
             <div className="tech-icons">
-                <DiMongodb /><p>Mongodb</p>
+                <DiNodejs /><p>Nodejs</p>
             </div>
             <div className="tech-icons">
-                <SiRedux /><p>Redux</p>
+                <DiMongodb /><p>Mongodb</p>
             </div>
             <div className="tech-icons">
                 <SiRedux /><p>Redux</p>
