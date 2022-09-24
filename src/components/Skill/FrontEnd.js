@@ -1,7 +1,7 @@
 import React from "react";
 import { SiRedux, SiStyledComponents, SiJson } from "react-icons/si";
 import { SiMaterialUi } from "react-icons/si";
-import { DiHtml5, DiCss3, DiReact, DiNpm, DiBootstrap, DiJavascript1 } from "react-icons/di";
+import { DiHtml5, DiCss3, DiReact, DiNpm, DiBootstrap, DiJavascript1, DiMongodb } from "react-icons/di";
 
 function FrontEnd() {
     return (
@@ -18,6 +18,15 @@ function FrontEnd() {
             </div>
             <div className="tech-icons">
                 <DiReact /><p>React</p>
+            </div>
+            <div className="tech-icons">
+                <SiRedux /><p>Redux</p>
+            </div>
+            <div className="tech-icons">
+                <DiMongodb /><p>Mongodb</p>
+            </div>
+            <div className="tech-icons">
+                <SiRedux /><p>Redux</p>
             </div>
             <div className="tech-icons">
                 <SiRedux /><p>Redux</p>
@@ -40,7 +49,6 @@ function FrontEnd() {
             </div>
             <div className="tech-icons">
                 <SiStyledComponents /><p style={{ fontSize: "18px" }}>Styled Components</p>
-
             </div>
         </div >
     );
