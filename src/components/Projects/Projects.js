@@ -29,8 +29,8 @@ function Projects() {
                 title="India Today"
                 tool="  JavaScript, HTML, CSS, JSON ,DOM-Manipulation"
                 description="This project is clone of IndiaToday news websote. India Today is a 24-hour English language television network based in Noida, Uttar Pradesh that carries news, current affairs and business programming in India. The channel is owned by TV Today Network Ltd, which is a part of Living Media."
-                link="https://github.com/SaurabhSinghRbz/india-today-clone"
-                demoLink="https://india-today-clone.netlify.app/"
+                link="https://github.com/SaurabhSinghRbz/indiaTodayClone2.0"
+                demoLink="https://india-today-news.vercel.app/"
               />
             </Col>
 
