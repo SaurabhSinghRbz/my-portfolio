@@ -1299,12 +1299,12 @@ html {
     font-size: 3em !important;
   }
   .modal-title {
-    /* font-size: 28px !important; */
+    font-size: 28px !important;
     display: flex !important;
     justify-content: center !important;
     padding: 0 !important;
     margin: 0 !important;
-    /* margin-left: -20px !important; */
+    margin-left: -20px !important;
   }
 
   .Home-Call-Img>p,
