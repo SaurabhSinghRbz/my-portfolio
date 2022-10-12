@@ -4,9 +4,10 @@ import ProjectCard from "./ProjectCards";
 // import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
-import project01 from "../../Assets/Projects/project01.png";
-import project03 from "../../Assets/Projects/project03.png";
-import project08 from "../../Assets/Projects/project08.png";
+import coSchedule from "../../Assets/Projects/coSchedule.png";
+import indiaToday from "../../Assets/Projects/indiaToday.png";
+import meanBuy from "../../Assets/Projects/meanBuy.png";
+import countryDetails from "../../Assets/Projects/countryDetails.png";
 
 function Projects() {
   return (
@@ -24,11 +25,22 @@ function Projects() {
 
             <Col md={6} className="project-card">
               <ProjectCard
-                imgPath={project01}
+                imgPath={coSchedule}
+                isBlog={false}
+                title="Co-Schedule"
+                tool="  JavaScript, HTNL, CSS, React, Redux, Nodejs, MongoDB, Express, ChakraUi, Local Storage"
+                description="This is a clone of a task management website called CoSchedule. Co-schedule is an app used by marketing teams. Graphic designer, and social media strategist. Co schedule is a family of Agile Marketing products that will help you organize your content, social, work, and assets in one place."
+                link="https://github.com/SaurabhSinghRbz/coSchedule_Clone"
+                demoLink="https://coschedule-clone-new.vercel.app/"
+              />
+            </Col>
+            <Col md={6} className="project-card">
+              <ProjectCard
+                imgPath={indiaToday}
                 isBlog={false}
                 title="India Today"
-                tool="  JavaScript, HTML, CSS, JSON ,DOM-Manipulation"
-                description="This project is clone of IndiaToday news websote. India Today is a 24-hour English language television network based in Noida, Uttar Pradesh that carries news, current affairs and business programming in India. The channel is owned by TV Today Network Ltd, which is a part of Living Media."
+                tool="  JavaScript, HTML, CSS, JSON, DOM-Manipulation, Local Storage"
+                description="This project is clone of IndiaToday news website. India Today is a 24-hour English language television network based in Noida, Uttar Pradesh that carries news, current affairs and business programming in India. The channel is owned by TV Today Network Ltd, which is a part of Living Media."
                 link="https://github.com/SaurabhSinghRbz/indiaTodayClone2.0"
                 demoLink="https://india-today-news.vercel.app/"
               />
@@ -37,7 +49,7 @@ function Projects() {
 
             <Col md={6} className="project-card second-blog">
               <ProjectCard
-                imgPath={project03}
+                imgPath={meanBuy}
                 isBlog={false}
                 title="MeanBUy"
                 tool="JavaScript, HTML, CSS, DOM-Manipulation, Localstorage "
@@ -49,7 +61,7 @@ function Projects() {
 
             <Col md={6} className="project-card second-blog">
               <ProjectCard
-                imgPath={project08}
+                imgPath={countryDetails}
                 isBlog={false}
                 title="All Country Details"
                 tool="JavaScript, HTML, CSS, DOM-Manipulation "
