@@ -6,25 +6,6 @@ function FrontEnd() {
     return (
         <div className="skillContainer">
             <div className="tech-icons">
-                <DiJavascript1 />
-                <p>Javascript</p>
-            </div>
-            <div className="tech-icons">
-                <DiHtml5 /><p>HTML</p>
-            </div>
-            <div className="tech-icons">
-                <DiCss3 /><p>CSS</p>
-            </div>
-            <div className="tech-icons">
-                <DiReact /><p>React</p>
-            </div>
-            <div className="tech-icons">
-                <SiRedux /><p>Redux</p>
-            </div>
-            <div className="tech-icons">
-                <DiNodejs /><p>Nodejs</p>
-            </div>
-            <div className="tech-icons">
                 <DiMongodb /><p>Mongodb</p>
             </div>
             <div className="tech-icons">
@@ -32,7 +13,17 @@ function FrontEnd() {
                 <p>Express</p>
             </div>
             <div className="tech-icons">
-                <DiNpm /><p>NPM</p>
+                <DiReact /><p>React</p>
+            </div>
+            <div className="tech-icons">
+                <DiNodejs /><p>Nodejs</p>
+            </div>
+            <div className="tech-icons">
+                <SiRedux /><p>Redux</p>
+            </div>
+            <div className="tech-icons">
+                <DiJavascript1 />
+                <p>Javascript</p>
             </div>
             <div className="tech-icons">
                 <SiMaterialUi /><p>MaterialUi</p>
@@ -45,10 +36,19 @@ function FrontEnd() {
                 <DiBootstrap /><p>Bootstrap</p>
             </div>
             <div className="tech-icons">
+                <SiStyledComponents /><p style={{ fontSize: "18px" }}>Styled Components</p>
+            </div>
+            <div className="tech-icons">
+                <DiHtml5 /><p>HTML</p>
+            </div>
+            <div className="tech-icons">
+                <DiCss3 /><p>CSS</p>
+            </div>
+            <div className="tech-icons">
                 <SiJson /><p>JSON</p>
             </div>
             <div className="tech-icons">
-                <SiStyledComponents /><p style={{ fontSize: "18px" }}>Styled Components</p>
+                <DiNpm /><p>NPM</p>
             </div>
         </div >
     );
