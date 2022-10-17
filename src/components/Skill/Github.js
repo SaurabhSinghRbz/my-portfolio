@@ -18,7 +18,7 @@ function Github() {
         Git <strong className="purple">Contributions</strong>
       </h1>
       <GitHubCalendar
-        username="shivam-singh-au17"
+        username="SaurabhSinghRbz"
         blockSize={15}
         blockMargin={5}
         theme={colourTheme}
