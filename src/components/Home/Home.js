@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profile from "../../Assets/profile.png";
-// import Particle from "../Particle";
 import ContectLogo from "./ContectLogo";
 import Type from "./Type";
 
@@ -9,7 +8,6 @@ function Home() {
   return (
     <section id="scrollHome">
       <Container fluid className="home-section" id="home">
-        {/* <Particle /> */}
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">

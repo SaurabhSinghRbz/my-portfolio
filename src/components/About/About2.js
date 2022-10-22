@@ -12,8 +12,6 @@ function About2() {
                         </h1>
                         <p className="home-about-body">
                             <span className="myabout first-about">
-
-                                {/* <b className="purple"></b> */}
                                 Hello, I am Saurabh Singh, Full Stack Web Developer. I'm from Sonbhadra, Uttar Pradesh, India. I'm an enthusiastic fresher, seeking a career with a progressive organization to capitalize on my skills and abilities in the ﬁeld of information technology, and eager to learn new technologies and methodologies.
                             </span>
                             <br />
