@@ -12,7 +12,6 @@ function NavBar() {
   const [navColour, updateNavbar] = useState(false);
   const { pathname } = useLocation();
 
-
   const scrollToFunction = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
     updateExpanded(false);
@@ -27,8 +26,7 @@ function NavBar() {
     }
   }
 
-
-  // active class on scroll and click event on navbar items 
+  // active class on scroll and click event on navbar items
   const li = document.querySelectorAll(".nav-link");
   const section = document.querySelectorAll(".activeNavlink");
   function acvtiveMenu() {
@@ -38,7 +36,7 @@ function NavBar() {
       let sectionHeight = section[i].offsetHeight;
       let variableHeight = sectionHeight / 4;
 
-      if (pageYOffset > (sectionTop - sectionHeight / 3) + variableHeight) {
+      if (pageYOffset > sectionTop - sectionHeight / 3 + variableHeight) {
         li.forEach((li) => {
           li.classList.remove("active");
         });
@@ -48,12 +46,6 @@ function NavBar() {
   }
   acvtiveMenu();
   window.addEventListener("scroll", acvtiveMenu);
-
-
-
-
-
-
 
   window.addEventListener("scroll", scrollHandler);
 
@@ -81,7 +73,11 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => scrollToFunction("scrollHome")} >
+              <Nav.Link
+                // as={Link}
+                // to="/"
+                onClick={() => scrollToFunction("scrollHome")}
+              >
                 {/* <span style={pathname === "/" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Home</span> */}
                 <span>Home</span>
               </Nav.Link>
@@ -89,8 +85,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/about"
+                // as={Link}
+                // to="/about"
                 onClick={() => scrollToFunction("scrollAbout")}
               >
                 {/* <span style={pathname === "/about" ? { color: "#0095ff", fontWeight: "bold" } : {}}>About</span> */}
@@ -100,8 +96,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/skill"
+                // as={Link}
+                // to="/skill"
                 onClick={() => scrollToFunction("scrollSkills")}
               >
                 {/* <span style={pathname === "/skill" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Skills</span> */}
@@ -111,8 +107,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/project"
+                // as={Link}
+                // to="/project"
                 onClick={() => scrollToFunction("scrollProjects")}
               >
                 {/* <span style={pathname === "/project" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Projects</span> */}
@@ -122,8 +118,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
+                // as={Link}
+                // to="/resume"
                 onClick={() => scrollToFunction("scrollResume")}
               >
                 {/* <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span> */}
@@ -143,19 +139,18 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/contact"
+                // as={Link}
+                // to="/contact"
                 onClick={() => scrollToFunction("scrollContact")}
               >
                 {/* <span style={pathname === "/contact" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Contact</span> */}
                 <span>Contact</span>
               </Nav.Link>
             </Nav.Item>
-
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar >
+    </Navbar>
   );
 }
 
