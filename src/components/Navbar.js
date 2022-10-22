@@ -11,6 +11,13 @@ function NavBar() {
   const [navColour, updateNavbar] = useState(false);
   const { pathname } = useLocation();
 
+
+  const scrollToFunction = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    updateExpanded(false);
+  };
+
+
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -45,7 +52,7 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} >
+              <Nav.Link as={Link} to="/" onClick={() => scrollToFunction("scrollHome")} >
                 <span style={pathname === "/" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Home</span>
               </Nav.Link>
             </Nav.Item>
@@ -54,7 +61,7 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/about"
-                onClick={() => updateExpanded(false)}
+                onClick={() => scrollToFunction("scrollAbout")}
               >
                 <span style={pathname === "/about" ? { color: "#0095ff", fontWeight: "bold" } : {}}>About</span>
               </Nav.Link>
@@ -64,7 +71,7 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/skill"
-                onClick={() => updateExpanded(false)}
+                onClick={() => scrollToFunction("scrollSkills")}
               >
                 <span style={pathname === "/skill" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Skills</span>
               </Nav.Link>
@@ -74,7 +81,7 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/project"
-                onClick={() => updateExpanded(false)}
+                onClick={() => scrollToFunction("scrollProjects")}
               >
                 <span style={pathname === "/project" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Projects</span>
               </Nav.Link>
@@ -84,7 +91,7 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/resume"
-                onClick={() => updateExpanded(false)}
+                onClick={() => scrollToFunction("scrollResume")}
               >
                 <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span>
               </Nav.Link>
@@ -104,7 +111,7 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/contact"
-                onClick={() => updateExpanded(false)}
+                onClick={() => scrollToFunction("scrollContact")}
               >
                 <span style={pathname === "/contact" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Contact</span>
               </Nav.Link>

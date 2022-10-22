@@ -16,7 +16,7 @@ function Contact() {
   const [callme, setCallme] = React.useState(false);
   const [message, setMessage] = React.useState(false);
   return (
-    <div className="contact-background">
+    <div className="contact-background" id="scrollContact">
       {/* <Particle /> */}
       <Container fluid className="home-contect-section" id="about">
         <Row>

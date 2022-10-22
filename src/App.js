@@ -31,15 +31,15 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <ScrollToTop />
-        {/* <Home />
+        {/* <ScrollToTop /> */}
+        <Home />
         <About />
         <Skill />
         <Projects />
         <Resume />
-        <Contact /> */}
+        <Contact />
 
-        <Switch>
+        {/* <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
@@ -47,7 +47,7 @@ function App() {
           <Route path="/resume" component={Resume} />
           <Route path="/blog" component={Blogs} />
           <Route path="/contact" component={Contact} />
-        </Switch>
+        </Switch> */}
       </div>
     </Router>
   );

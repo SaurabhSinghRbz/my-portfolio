@@ -10,7 +10,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 function Resume() {
   return (
-    <div className="resume-background">
+    <div className="resume-background" id="scrollResume">
       {/* <Particle2 /> */}
       <Container fluid className="resume-section">
         <Container>

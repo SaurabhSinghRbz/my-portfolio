@@ -5,13 +5,10 @@ import About2 from "./About2";
 
 function About() {
   return (
-    <>
-      <div className="about-background">
-        {/* <Particle /> */}
-        <About2 />
-      </div>
-      <Footer />
-    </>
+    <div className="about-background" id="scrollAbout">
+      {/* <Particle /> */}
+      <About2 />
+    </div>
   );
 }
 
