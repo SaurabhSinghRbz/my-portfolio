@@ -12,7 +12,7 @@ import countryDetails from "../../Assets/Projects/countryDetails.png";
 
 function Projects() {
   return (
-    <div className="project-background" id="scrollProjects">
+    <div className="project-background activeNavlink" id="scrollProjects">
       {/* <Particle2 /> */}
       <Container fluid className="project-section">
         <Container>

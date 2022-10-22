@@ -9,7 +9,7 @@ import Toolstack from "./Toolstack";
 
 function Skill() {
   return (
-    <div className="Skill-background" id="scrollSkills">
+    <div className="Skill-background activeNavlink" id="scrollSkills">
       <Container fluid className="about-section">
         <Container className="icon-fade" style={{ marginTop: "-50px" }}>
           <h1 style={{ fontSize: "2.6em", marginBottom: "50px", marginTop: "0px !important" }}>

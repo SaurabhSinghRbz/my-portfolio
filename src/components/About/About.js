@@ -3,7 +3,7 @@ import About2 from "./About2";
 
 function About() {
   return (
-    <div className="about-background" id="scrollAbout">
+    <div className="about-background activeNavlink" id="scrollAbout">
       <About2 />
     </div>
   );

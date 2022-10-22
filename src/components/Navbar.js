@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -26,6 +27,34 @@ function NavBar() {
     }
   }
 
+
+  // active class on scroll and click event on navbar items 
+  const li = document.querySelectorAll(".nav-link");
+  const section = document.querySelectorAll(".activeNavlink");
+  function acvtiveMenu() {
+    let len = section.length;
+    for (let i = 0; i < len; i++) {
+      let sectionTop = section[i].offsetTop;
+      let sectionHeight = section[i].offsetHeight;
+      let variableHeight = sectionHeight / 4;
+
+      if (pageYOffset > (sectionTop - sectionHeight / 3) + variableHeight) {
+        li.forEach((li) => {
+          li.classList.remove("active");
+        });
+        li[i].classList.add("active");
+      }
+    }
+  }
+  acvtiveMenu();
+  window.addEventListener("scroll", acvtiveMenu);
+
+
+
+
+
+
+
   window.addEventListener("scroll", scrollHandler);
 
   return (
@@ -53,7 +82,8 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => scrollToFunction("scrollHome")} >
-                <span style={pathname === "/" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Home</span>
+                {/* <span style={pathname === "/" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Home</span> */}
+                <span>Home</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -63,7 +93,8 @@ function NavBar() {
                 to="/about"
                 onClick={() => scrollToFunction("scrollAbout")}
               >
-                <span style={pathname === "/about" ? { color: "#0095ff", fontWeight: "bold" } : {}}>About</span>
+                {/* <span style={pathname === "/about" ? { color: "#0095ff", fontWeight: "bold" } : {}}>About</span> */}
+                <span>About</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -73,7 +104,8 @@ function NavBar() {
                 to="/skill"
                 onClick={() => scrollToFunction("scrollSkills")}
               >
-                <span style={pathname === "/skill" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Skills</span>
+                {/* <span style={pathname === "/skill" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Skills</span> */}
+                <span>Skills</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -83,7 +115,8 @@ function NavBar() {
                 to="/project"
                 onClick={() => scrollToFunction("scrollProjects")}
               >
-                <span style={pathname === "/project" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Projects</span>
+                {/* <span style={pathname === "/project" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Projects</span> */}
+                <span>Projects</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -93,7 +126,8 @@ function NavBar() {
                 to="/resume"
                 onClick={() => scrollToFunction("scrollResume")}
               >
-                <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span>
+                {/* <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span> */}
+                <span>Resume</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -113,7 +147,8 @@ function NavBar() {
                 to="/contact"
                 onClick={() => scrollToFunction("scrollContact")}
               >
-                <span style={pathname === "/contact" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Contact</span>
+                {/* <span style={pathname === "/contact" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Contact</span> */}
+                <span>Contact</span>
               </Nav.Link>
             </Nav.Item>
 

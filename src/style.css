@@ -22,6 +22,7 @@ html {
   background-image: var(--image-gradient), url(./Assets/skill-bg.svg);
   background-position: top center;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 
@@ -1349,4 +1350,13 @@ html {
   .myMessageWarniing {
     font-size: 0.6em !important;
   }
+}
+
+
+
+
+/* to change the navbar li item color dynamically */
+.active>span {
+  color: #0095ff;
+  font-weight: bold
 }

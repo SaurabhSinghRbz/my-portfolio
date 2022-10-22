@@ -6,7 +6,7 @@ import Type from "./Type";
 
 function Home() {
   return (
-    <section id="scrollHome">
+    <section id="scrollHome" className="activeNavlink">
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
