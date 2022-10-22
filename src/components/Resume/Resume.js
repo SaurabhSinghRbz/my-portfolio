@@ -5,7 +5,6 @@ import Button from "react-bootstrap/Button";
 import Resumecontent from "./ResumeContent";
 import pdf from "../../Assets/Saurabh_Singh_Resume2.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import Footer from "../Footer";
 import { FiExternalLink } from "react-icons/fi";
 
 function Resume() {
@@ -157,7 +156,6 @@ function Resume() {
           </Row>
         </Container>
       </Container>
-      <Footer />
     </div>
   );
 }

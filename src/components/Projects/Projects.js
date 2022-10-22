@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // import Particle2 from "../Particle2";
-import Footer from "../Footer";
+
 
 import coSchedule from "../../Assets/Projects/coSchedule.png";
 import spotify from "../../Assets/Projects/Spotify.png";
@@ -93,7 +93,7 @@ function Projects() {
           </Row>
         </Container>
       </Container>
-      <Footer />
+
     </div>
   );
 }

@@ -6,7 +6,6 @@ import { Container } from "react-bootstrap";
 // import Languages from "./Languages";
 import FrontEnd from "./FrontEnd";
 import Toolstack from "./Toolstack";
-import Footer from "../Footer";
 
 function Skill() {
   return (
@@ -39,7 +38,6 @@ function Skill() {
           {/* <Github /> */}
         </Container>
       </Container>
-      <Footer />
     </div>
 
   );
