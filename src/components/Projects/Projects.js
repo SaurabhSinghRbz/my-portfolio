@@ -5,6 +5,7 @@ import ProjectCard from "./ProjectCards";
 import Footer from "../Footer";
 
 import coSchedule from "../../Assets/Projects/coSchedule.png";
+import spotify from "../../Assets/Projects/Spotify.png";
 import indiaToday from "../../Assets/Projects/indiaToday.png";
 import meanBuy from "../../Assets/Projects/meanBuy.png";
 import countryDetails from "../../Assets/Projects/countryDetails.png";
@@ -23,6 +24,7 @@ function Projects() {
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+            {/* Co-Schedule Clone -------------------------------------------------------------------*/}
             <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={coSchedule}
@@ -34,6 +36,21 @@ function Projects() {
                 demoLink="https://coschedule-clone-new.vercel.app/"
               />
             </Col>
+
+            {/* Spotify 2.0 ------------------------------------------------------------- */}
+            <Col md={6} className="project-card">
+              <ProjectCard
+                imgPath={spotify}
+                isBlog={false}
+                title="Spotify 2.0"
+                tool="  JavaScript, React, Redux-Toolkit, Vite, TailwindCSS, Shazaam API, HTML, CSS"
+                description="This is not a clone of Spotify website. Music is an art of sound in time that expresses ideas and emotions in significant forms through the elements of rhythm, melody, harmony, and color. The music is employed, occurring in a single line or multiple lines, to be sounded by one or more voices or instruments."
+                link="https://github.com/SaurabhSinghRbz/Spotify2.0-Web-Music-Player"
+                demoLink="https://premium-spotify.vercel.app/"
+              />
+            </Col>
+
+            {/* India Today Clone ---------------------------------------------------------------- */}
             <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={indiaToday}
@@ -46,7 +63,7 @@ function Projects() {
               />
             </Col>
 
-
+            {/* MeanBuy Clone ---------------------------------------------------------------------- */}
             <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={meanBuy}
@@ -59,6 +76,7 @@ function Projects() {
               />
             </Col>
 
+            {/* Country Details -------------------------------------------------------- */}
             <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={countryDetails}
@@ -70,6 +88,8 @@ function Projects() {
                 demoLink="https://allcountry-details.netlify.app/"
               />
             </Col>
+
+
           </Row>
         </Container>
       </Container>
