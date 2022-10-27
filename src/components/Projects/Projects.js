@@ -9,6 +9,7 @@ import spotify from "../../Assets/Projects/Spotify.png";
 import indiaToday from "../../Assets/Projects/indiaToday.png";
 import meanBuy from "../../Assets/Projects/meanBuy.png";
 import countryDetails from "../../Assets/Projects/countryDetails.png";
+import fitnessClub from "../../Assets/Projects/fitnessClub.png";
 
 function Projects() {
   return (
@@ -49,6 +50,22 @@ function Projects() {
                 demoLink="https://premium-spotify.vercel.app/"
               />
             </Col>
+
+
+
+            {/* Fitness Club ------------------------------------------------------------- */}
+            <Col md={6} className="project-card">
+              <ProjectCard
+                imgPath={fitnessClub}
+                isBlog={false}
+                title="Fitness Club"
+                tool="  JavaScript, React, Material UI, Rapid API, HTML, CSS"
+                description="This is an individual project. Everything is created by me. This website is not a clone of any other website. This is a simple body exercise app. It contains more than a thousand exercises. and all exercises have a GIF image, which helps you to understand the exercise."
+                link="https://github.com/SaurabhSinghRbz/fitness-react-project"
+                demoLink="https://fitness-club-app.netlify.app/"
+              />
+            </Col>
+
 
             {/* India Today Clone ---------------------------------------------------------------- */}
             <Col md={6} className="project-card">
