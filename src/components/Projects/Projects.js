@@ -59,7 +59,7 @@ function Projects() {
                 imgPath={fitnessClub}
                 isBlog={false}
                 title="Fitness Club"
-                tool="  JavaScript, React, Material UI, Rapid API, HTML, CSS"
+                tool="  JavaScript, React, Material UI, NodeJs, Express, MongoDB, HTML, CSS"
                 description="This is an individual project. Everything is created by me. This website is not a clone of any other website. This is a simple body exercise app. It contains more than a thousand exercises. and all exercises have a GIF image, which helps you to understand the exercise."
                 link="https://github.com/SaurabhSinghRbz/fitness-react-project"
                 demoLink="https://fitness-club-app.web.app/"
