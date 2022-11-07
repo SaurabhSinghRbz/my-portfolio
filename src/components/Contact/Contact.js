@@ -37,7 +37,7 @@ function Contact() {
                   <IoCall />
                 </span>
                 <span className="link-text-css" onClick={() => setCallme(true)}>
-                  +91 8576858692<span style={{ opacity: 0 }}>918576858692</span>
+                  +91 8576858692<span style={{ opacity: 0 }}>+91 8576858692</span>
                 </span>
               </li>
               <li className="social-icons-contect third">
