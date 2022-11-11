@@ -138,14 +138,14 @@ function Resume() {
                 ]}
               />
 
-              {/* <h3 className="resume-title">ACHIEVEMENTS</h3>
+              <h3 className="resume-title">ACHIEVEMENTS</h3>
               <Resumecontent
                 title=""
                 content={[
-                  "Getting started with python LinkedIn Skill Assessment badge.",
+                  "",
                   "LinkedIn Skill Assessment badge in CSS, JavaScript, Git, Bash, Node.js, and MongoDB.",
                 ]}
-              /> */}
+              />
             </Col>
           </Row>
           <Row style={{ justifyContent: "center", position: "relative" }}>
