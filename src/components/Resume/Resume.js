@@ -21,6 +21,8 @@ function Resume() {
           </Row>
           <Row className="resume">
             <Col md={6} className="resume-left">
+
+              {/* Masai trainee part ------------> */}
               <h3 className="resume-title">Trainee</h3>
               <Resumecontent
                 title="Full Stack Web Developer [Masai School]"
@@ -34,6 +36,7 @@ function Resume() {
                 ]}
               />
 
+              {/* {Certificate part ------------>} */}
               <h3 className="resume-title">Certifications</h3>
               <Resumecontent
                 // title="Techpile Technology, Intern [Flash Tech]"
@@ -119,7 +122,7 @@ function Resume() {
             <Col md={6} className="resume-right">
 
 
-{/* education section ----------------------- */}
+              {/* education section ----------------------- */}
               <h3 className="resume-title">Education</h3>
               <Resumecontent
                 title="Government Polytechnic Lucknow, Lucknow (U.P.)"
@@ -141,6 +144,7 @@ function Resume() {
                 ]}
               />
 
+              {/* achievements part --------> */}
               <h3 className="resume-title">ACHIEVEMENTS</h3>
               <Resumecontent
                 title=""
