@@ -117,6 +117,9 @@ function Resume() {
               />
             </Col>
             <Col md={6} className="resume-right">
+
+
+{/* education section ----------------------- */}
               <h3 className="resume-title">Education</h3>
               <Resumecontent
                 title="Government Polytechnic Lucknow, Lucknow (U.P.)"
