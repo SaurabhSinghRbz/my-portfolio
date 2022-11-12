@@ -32,7 +32,8 @@ function Resume() {
                   "1200 hours of hands - on coding.",
                   "1000 hours for DSA.",
                   "50 hours for soft skills development.",
-                  "3 collaborative projects and 30+ mini-projects.",
+                  "3 collaborative projects.",
+                  "30+ mini-projects.",
                 ]}
               />
 
@@ -140,17 +141,18 @@ function Resume() {
                     <FiExternalLink /></a>,
                   <a className="certificate_Links" href="https://drive.google.com/file/d/1WOHvJ0pzZd7R_0hD1jA9IVfkKdGhWeiR/view?usp=sharing" target="_blank" rel="noreferrer">High School - (2016)&nbsp;
                     <FiExternalLink /></a>,
-                  "Other - (2013 - 2015)",
+                  // "Other - (2013 - 2015)",
                 ]}
               />
 
               {/* achievements part --------> */}
-              <h3 className="resume-title">ACHIEVEMENTS</h3>
+              <h3 className="resume-title">Masai's Achievements</h3>
               <Resumecontent
                 title=""
                 content={[
-                  "",
-                  "LinkedIn Skill Assessment badge in CSS, JavaScript, Git, Bash, Node.js, and MongoDB.",
+                  "Comeback Kid Award",
+                  "Rising Star Award",
+                  "26 Days Zoom Marathon Challenge",
                 ]}
               />
             </Col>
