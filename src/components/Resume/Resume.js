@@ -150,9 +150,12 @@ function Resume() {
               <Resumecontent
                 title=""
                 content={[
-                  "Comeback Kid Award",
-                  "Rising Star Award",
-                  "26 Days Zoom Marathon Challenge",
+                  <a className="certificate_Links" href="https://drive.google.com/file/d/1XxNwxCCFyg2grtg5CKorjbDiRDB90mBI/view?usp=sharing" target="_blank" rel="noreferrer">Comeback Kid Award&nbsp;
+                    <FiExternalLink /></a>,
+                  <a className="certificate_Links" href="https://drive.google.com/file/d/18ZbLfJyTQErSFaDtnyw3Qo0KGdzZsuxv/view?usp=sharing" target="_blank" rel="noreferrer">Rising Star Award&nbsp;
+                    <FiExternalLink /></a>,
+                  <a className="certificate_Links" href="https://drive.google.com/file/d/1rwnr0EFoH8d7Gp4OQX_EKs1ybKHAiERs/view?usp=sharing" target="_blank" rel="noreferrer">26 Days Zoom Marathon Challenge&nbsp;
+                    <FiExternalLink /></a>,
                 ]}
               />
             </Col>
