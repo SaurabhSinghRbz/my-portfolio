@@ -93,7 +93,18 @@ function Projects() {
               />
             </Col>
 
+
+          </Row>
+        </Container>
+
+
+        <Container>
+          <h1 className="project-heading">
+            Mini <strong className="purple">Projects </strong>
+          </h1>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             {/* Country Details -------------------------------------------------------- */}
+
             <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={countryDetails}
