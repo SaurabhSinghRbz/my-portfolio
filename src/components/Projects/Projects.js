@@ -10,6 +10,7 @@ import indiaToday from "../../Assets/Projects/indiaToday.png";
 import meanBuy from "../../Assets/Projects/meanBuy.png";
 import countryDetails from "../../Assets/Projects/countryDetails.png";
 import fitnessClub from "../../Assets/Projects/fitnessClub.png";
+import weatherForecast from "../../Assets/Projects/weatherForecast.png";
 
 function Projects() {
   return (
@@ -103,8 +104,22 @@ function Projects() {
             Mini <strong className="purple">Projects </strong>
           </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            {/* Country Details -------------------------------------------------------- */}
 
+            {/* Weather Forecast-------------------------------------------------------------------------- */}
+            <Col md={6} className="project-card second-blog">
+              <ProjectCard
+                imgPath={weatherForecast}
+                isBlog={false}
+                title="Weather Forecast"
+                tool="JavaScript, HTML, CSS, DOM-Manipulation, Rest API"
+                description="This is my first webpage, which I made after my first class on Rest-API. Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time. People have attempted to predict the weather informally for millennia and formally since the 19th century."
+                link="https://github.com/SaurabhSinghRbz/weatherForecast"
+                demoLink="https://current-weather.vercel.app/"
+              />
+            </Col>
+
+
+            {/* Country Details -------------------------------------------------------- */}
             <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={countryDetails}
