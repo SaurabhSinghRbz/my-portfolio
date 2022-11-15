@@ -11,6 +11,7 @@ import meanBuy from "../../Assets/Projects/meanBuy.png";
 import countryDetails from "../../Assets/Projects/countryDetails.png";
 import fitnessClub from "../../Assets/Projects/fitnessClub.png";
 import weatherForecast from "../../Assets/Projects/weatherForecast.png";
+import ticTacToe from "../../Assets/Projects/ticTacToe.png";
 
 function Projects() {
   return (
@@ -104,6 +105,21 @@ function Projects() {
             Mini <strong className="purple">Projects </strong>
           </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+            {/* Tic-tac-toe-------------------------------------------------------------------------- */}
+            <Col md={6} className="project-card second-blog">
+              <ProjectCard
+                imgPath={ticTacToe}
+                isBlog={false}
+                title="Tic-Tac-Toe"
+                tool="JavaScript, HTML, CSS, React, React-Hooks "
+                description="This is a single page application Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players."
+                link="https://github.com/SaurabhSinghRbz/tic-tac-toe"
+                demoLink="https://tic-tac-toe2-0.netlify.app/"
+              />
+            </Col>
+
+
 
             {/* Weather Forecast-------------------------------------------------------------------------- */}
             <Col md={6} className="project-card second-blog">
