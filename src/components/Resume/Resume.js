@@ -28,7 +28,7 @@ function Resume() {
                 title="Full Stack Web Developer [Masai School]"
                 // date="2022 – Present"
                 content={[
-                  "Date - (2022) - Present",
+                  "20-September-2021 to 10-November-2022",
                   "1200 hours of hands - on coding.",
                   "1000 hours for DSA.",
                   "50 hours for soft skills development.",
