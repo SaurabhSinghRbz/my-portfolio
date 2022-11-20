@@ -1,4 +1,4 @@
-# _[Personal Portfolio....](http://singhsaurabh.vercel.app/)_
+# _[Personal Portfolio....](https://saurabhsinghrbz.web.app/)_
 
 
 ![Screenshot (72)](https://user-images.githubusercontent.com/90378786/197326878-7933ba99-ad90-4e1e-8357-abe9ff83c20a.png)
@@ -9,6 +9,11 @@
 
 ### _This is my portfolio where you can know about me and my work, and you can also know what types of projects I have done so far in my web development journey, You can see here what kind of technology I have used to build web applications._
 
+
+# _Deployment : -_
+### _[1. Firebase](https://saurabhsinghrbz.web.app/)_
+### _[2. Vercel](https://singhsaurabh.vercel.app/)_
+### _[3. Netlify](https://singhsaurabh.netlify.app/)_
 
 
 
