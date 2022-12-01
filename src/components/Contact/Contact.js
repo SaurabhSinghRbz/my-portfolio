@@ -80,7 +80,7 @@ function Contact() {
             <ul className="home-about-social-links">
               <li className="social-icons-contect second">
                 <a
-                  href="https://www.linkedin.com/in/saurabh-singh-rbz1602/"
+                  href="https://www.linkedin.com/in/saurabhsinghrbz"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -91,7 +91,7 @@ function Contact() {
                   className="link-text-css"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.linkedin.com/in/saurabh-singh-rbz1602/"
+                  href="https://www.linkedin.com/in/saurabhsinghrbz"
                 >
                   linkedin.com/in/saurabh-singh-rbz1602/
                   <span style={{ opacity: 0 }}>||</span>
