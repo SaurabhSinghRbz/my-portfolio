@@ -64,7 +64,7 @@ function Projects() {
                 tool="  JavaScript, React, Material UI, NodeJs, Express, MongoDB, HTML, CSS"
                 description="This is an individual project. Everything is created by me. This website is not a clone of any other website. This is a simple body exercise app. It contains more than a thousand exercises. and all exercises have a GIF image, which helps you to understand the exercise."
                 link="https://github.com/SaurabhSinghRbz/fitness-react-project"
-                demoLink="https://fitness-club-app.web.app/"
+                demoLink="https://fitness-club-app.netlify.app/"
               />
             </Col>
 
@@ -136,7 +136,7 @@ function Projects() {
 
 
             {/* Country Details -------------------------------------------------------- */}
-            <Col md={6} className="project-card second-blog">
+            {/* <Col md={6} className="project-card second-blog">
               <ProjectCard
                 imgPath={countryDetails}
                 isBlog={false}
@@ -146,7 +146,7 @@ function Projects() {
                 link="https://github.com/SaurabhSinghRbz/All_Country_Details"
                 demoLink="https://allcountry-details.netlify.app/"
               />
-            </Col>
+            </Col> */}
 
 
           </Row>
