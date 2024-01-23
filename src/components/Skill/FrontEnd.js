@@ -49,7 +49,7 @@ function FrontEnd() {
             </div>
 
             <div className="tech-icons">
-                <SiStyledComponents /><p style={{ fontSize: "18px" }}>Styled Components</p>
+                <SiStyledComponents /><p>Styled Components</p>
             </div>
             <div className="tech-icons">
                 <DiNpm /><p>NPM</p>
