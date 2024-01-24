@@ -11,7 +11,7 @@ Hey there! I'm Saurabh Singh, and this repository is a curated showcase of my gr
 
 # 🌐 Explore My Web Development Universe
 
-This isn't just a portfolio; it's a living testament to my dedication and passion for web development. Dive into the carefully structured sections to get a glimpse of my evolution, from my earliest ventures to the latest milestones in my coding journey.
+This isn't just a portfolio. it's a living testament to my dedication and passion for web development. Dive into the carefully structured sections to get a glimpse of my evolution, from my earliest ventures to the latest milestones in my coding journey.
 
 
 
