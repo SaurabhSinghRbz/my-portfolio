@@ -5,7 +5,7 @@
 
 # Welcome to My Web Development Journey 🚀
 
-Hey there! I'm Saurabh Singh, and this repository is a curated showcase of my growth, achievements, and the incredible projects I've crafted during my school years and my immersive coding journey at Masai School.
+Hey there! I'm Saurabh Singh, and this repository is an organized showcase of my growth, achievements, and the incredible projects I've crafted during my school years and my immersive coding journey at Masai School.
 
 
 
