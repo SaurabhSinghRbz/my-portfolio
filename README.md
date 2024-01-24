@@ -18,10 +18,10 @@ This isn't just a portfolio; it's a living testament to my dedication and passio
 
 # 🚧 What You'll Find:
 
-* ### Work Experiences
-* ### Project Samples & Documents
-* ### Structured Progress
-* ### Competencies & Technologies
+* #### Work Experiences
+* #### Project Samples & Documents
+* #### Structured Progress
+* #### Competencies & Technologies
 
 
 
@@ -38,4 +38,4 @@ This portfolio isn't just lines of code. it's a narrative of challenges conquere
 ### _[3. Netlify](https://singhsaurabh.netlify.app/)_
 
 
-### Thank you for being a part of my journey. Let's continue building, learning, and creating wonders together! 🌈
+#### Thank you for being a part of my journey. Let's continue building, learning, and creating wonders together! 🌈
