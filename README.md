@@ -16,14 +16,19 @@
 
 ## Table of contents
 
-- [About this archive](#about-this-archive)
-- [Where the new portfolio is linked from](#where-the-new-portfolio-is-linked-from)
-- [Tech stack](#tech-stack)
-- [Getting started](#getting-started)
-- [Project structure](#project-structure)
-- [Deployment](#deployment)
-- [Maintenance notes / changelog](#maintenance-notes--changelog)
-- [Contact](#contact)
+- [Saurabh Singh — Portfolio **v1** (archived)](#saurabh-singh--portfolio-v1-archived)
+  - [Table of contents](#table-of-contents)
+  - [About this archive](#about-this-archive)
+  - [Where the new portfolio is linked from](#where-the-new-portfolio-is-linked-from)
+  - [Tech stack](#tech-stack)
+  - [Getting started](#getting-started)
+  - [Project structure](#project-structure)
+  - [Deployment](#deployment)
+    - [Legacy deployment links](#legacy-deployment-links)
+  - [Maintenance notes / changelog](#maintenance-notes--changelog)
+    - [2026-08 — modernisation pass](#2026-08--modernisation-pass)
+    - [On `npm audit`](#on-npm-audit)
+  - [Contact](#contact)
 
 ---
 
