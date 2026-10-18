@@ -67,6 +67,3 @@ export const CURRENT_PROFILE = {
     },
   ],
 };
-
-/** sessionStorage key used to remember that the top banner was dismissed. */
-export const BANNER_DISMISS_KEY = "portfolio-v2-banner-dismissed";

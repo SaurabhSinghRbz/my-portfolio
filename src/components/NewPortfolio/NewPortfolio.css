@@ -25,7 +25,7 @@
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
-  padding: 8px 46px 8px 16px;
+  padding: 8px 16px;
   background: linear-gradient(90deg, #0b1030 0%, #17204f 50%, #3a0a1c 100%);
   border-bottom: 1px solid rgba(0, 149, 255, 0.45);
   color: #ffffff;
@@ -73,30 +73,6 @@
   transform: translateY(-1px);
 }
 
-.v2-banner__close {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 28px;
-  height: 28px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: 0;
-  border-radius: 50%;
-  background: transparent;
-  color: #ffffff;
-  opacity: 0.7;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.v2-banner__close:hover,
-.v2-banner__close:focus-visible {
-  opacity: 1;
-  background: rgba(255, 255, 255, 0.12);
-}
 
 /* Push the fixed navbar (and its scrolled "sticky" variant) below the banner
    so the two never overlap. Removed again the moment the banner is dismissed. */
@@ -124,7 +100,7 @@ body.v2-banner-open .home-content {
 
   .v2-banner {
     font-size: 0.82rem;
-    padding: 8px 40px 8px 12px;
+    padding: 8px 12px;
   }
 }
 
@@ -271,5 +247,91 @@ body.v2-banner-open .home-content {
 
   .v2-notice__title {
     font-size: 1.25rem;
+  }
+}
+
+/* ---------- banner wording: long by default, short on small phones ---------- */
+.v2-banner__text--short {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .v2-banner {
+    gap: 6px 8px;
+  }
+  .v2-banner__text--long {
+    display: none;
+  }
+  .v2-banner__text--short {
+    display: inline;
+  }
+}
+
+/* ---------- small-phone fixes for the archived site (≤ 400px) ----------
+   The v1 styles assume ~375px+; at 320–400px the hero headings wrapped to four
+   lines and long contact links were clipped. Scoped here so the original
+   stylesheet stays untouched. */
+@media (max-width: 400px) {
+  body .heading,
+  body .heading-name,
+  body .sub-heading-name {
+    padding-left: 20px !important;
+  }
+  body .heading {
+    font-size: 2em !important;
+  }
+  body .heading-name {
+    font-size: 2.4em !important;
+  }
+  body .sub-heading-name {
+    font-size: 1.1em !important;
+    letter-spacing: 1px;
+  }
+  /* typewriter wrapper carries an inline 45px indent */
+  body .home-header > div[style] {
+    padding-left: 20px !important;
+  }
+
+  /* five hero social icons on one row */
+  body .home-about-social-linksTwo {
+    padding-left: 12px !important;
+  }
+  body .social-iconsTwo {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
+/* ---------- long contact links (all widths) ----------
+   The long LinkedIn / Twitter links overflowed their column on phones, on
+   tablets and at 1024px. Let them wrap if they must, tighten the tracking,
+   and drop the invisible spacer copies the original markup used. */
+body .link-text-css {
+  overflow-wrap: break-word;
+  letter-spacing: 1px !important;
+}
+body .link-text-css span[style*="opacity"] {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  body .link-text-css {
+    letter-spacing: 0.5px !important;
+  }
+}
+
+/* ---------- tablets (768–991px): six nav items + logo must fit ---------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* contact list: one column, so addresses stay on one line */
+  body .home-contect-section .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  body .navbar-nav .nav-item {
+    margin-left: 4px;
+  }
+  body .navbar-nav .nav-link {
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important;
   }
 }
