@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import BlogsCard from "./BlogsCard";
-// import Particle2 from "../Particle2";
 import Footer from "../Footer";
 
 import noBroker from "../../Assets/Blogs/noBroker.png";
@@ -9,7 +8,6 @@ import noBroker from "../../Assets/Blogs/noBroker.png";
 function Blogs() {
   return (
     <div className="blog-background">
-      {/* <Particle2 /> */}
       <Container fluid className="project-section">
         <Container>
           <h1 className="project-heading">

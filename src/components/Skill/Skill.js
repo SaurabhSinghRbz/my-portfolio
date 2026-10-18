@@ -1,7 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-// import Particle2 from "../Particle2";
-// import Github from "./Github";
 // import BackEnd from "./BackEnd";
 // import Languages from "./Languages";
 import FrontEnd from "./FrontEnd";

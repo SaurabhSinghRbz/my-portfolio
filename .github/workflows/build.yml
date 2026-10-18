@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ["18.x", "20.x", "22.x"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - run: npm ci
+
+      # CI=true makes CRA treat lint warnings as errors. The tree is currently
+      # warning-free, so keep it strict here and catch regressions early.
+      # (netlify.toml sets CI=false so a stray warning can never block a deploy.)
+      - run: npm run build
+        env:
+          CI: true

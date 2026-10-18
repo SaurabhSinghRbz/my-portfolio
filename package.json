@@ -1,26 +1,19 @@
 {
-  "name": "Saurabh-Singh-Portfolio",
-  "version": "0.1.0",
+  "name": "saurabh-singh-portfolio-v1",
+  "version": "1.1.0",
   "private": true,
+  "description": "Archived v1 of Saurabh Singh's personal portfolio (Create React App). Superseded by https://iamsaurabh.in",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "@emotion/react": "^11.10.4",
-    "@mui/material": "^5.0.3",
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.6.0",
-    "axios": "^0.21.1",
-    "bootstrap": "^4.5.3",
-    "react": "^17.0.1",
-    "react-bootstrap": "^1.4.0",
-    "react-dom": "^17.0.1",
-    "react-github-calendar": "^2.0.2",
-    "react-icons": "^4.2.0",
-    "react-parallax-tilt": "^1.4.68",
-    "react-particles-js": "^3.4.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
-    "typewriter-effect": "^2.17.0",
-    "web-vitals": "^0.2.4"
+    "bootstrap": "^4.6.2",
+    "react": "^18.3.1",
+    "react-bootstrap": "^1.6.8",
+    "react-dom": "^18.3.1",
+    "react-icons": "^4.12.0",
+    "react-scripts": "5.0.1",
+    "typewriter-effect": "^2.21.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,8 +23,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -46,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "."
+  "homepage": "/"
 }

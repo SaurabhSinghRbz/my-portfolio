@@ -1,0 +1,259 @@
+/* --------------------------------------- */
+/* ---- "there is a newer portfolio" ----- */
+/* --------------------------------------- */
+
+:root {
+  --v2-banner-height: 46px;
+  --v2-accent: #0095ff;
+}
+
+/* ---------- fixed top banner ---------- */
+
+.v2-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1100; /* above the bootstrap fixed-top navbar (1030) */
+  min-height: var(--v2-banner-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 8px 46px 8px 16px;
+  background: linear-gradient(90deg, #0b1030 0%, #17204f 50%, #3a0a1c 100%);
+  border-bottom: 1px solid rgba(0, 149, 255, 0.45);
+  color: #ffffff;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  text-align: center;
+  user-select: none;
+}
+
+.v2-banner__tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--v2-accent);
+  color: #01121f;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.v2-banner__text {
+  opacity: 0.9;
+}
+
+.v2-banner__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border: 1px solid var(--v2-accent);
+  border-radius: 999px;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.v2-banner__cta:hover,
+.v2-banner__cta:focus-visible {
+  background: var(--v2-accent);
+  color: #01121f !important;
+  transform: translateY(-1px);
+}
+
+.v2-banner__close {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #ffffff;
+  opacity: 0.7;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.v2-banner__close:hover,
+.v2-banner__close:focus-visible {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Push the fixed navbar (and its scrolled "sticky" variant) below the banner
+   so the two never overlap. Removed again the moment the banner is dismissed. */
+body.v2-banner-open .navbar,
+body.v2-banner-open .sticky {
+  top: var(--v2-banner-height) !important;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --v2-banner-height: 62px;
+  }
+
+  .v2-banner {
+    font-size: 0.82rem;
+    padding: 8px 40px 8px 12px;
+  }
+}
+
+/* ---------- in-page notice card ---------- */
+
+.v2-notice {
+  padding: 40px 16px 10px 16px;
+}
+
+.v2-notice__card {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 26px 28px;
+  border: 1px solid rgba(0, 149, 255, 0.35);
+  border-radius: 14px;
+  background: rgba(8, 12, 40, 0.55);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(4px);
+  color: #ffffff;
+  text-align: left;
+}
+
+.v2-notice__eyebrow {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(0, 149, 255, 0.18);
+  border: 1px solid rgba(0, 149, 255, 0.5);
+  color: var(--v2-accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.v2-notice__title {
+  margin: 0 0 8px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.v2-notice__body {
+  margin: 0 0 20px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.88;
+}
+
+.v2-notice__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.v2-notice__item {
+  padding: 16px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.v2-notice__item--new {
+  border-color: rgba(0, 149, 255, 0.6);
+  background: rgba(0, 149, 255, 0.08);
+}
+
+.v2-notice__item-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.v2-notice__badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.v2-notice__badge--new {
+  background: var(--v2-accent);
+  color: #01121f;
+}
+
+.v2-notice__badge--old {
+  background: rgba(255, 255, 255, 0.16);
+  color: #ffffff;
+}
+
+.v2-notice__link {
+  display: inline-block;
+  margin-bottom: 4px;
+  color: var(--v2-accent) !important;
+  font-size: 1.06rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  word-break: break-word;
+}
+
+.v2-notice__link:hover,
+.v2-notice__link:focus-visible {
+  text-decoration: underline !important;
+}
+
+.v2-notice__meta {
+  margin: 0;
+  font-size: 0.86rem;
+  opacity: 0.7;
+}
+
+.v2-notice__mirrors {
+  margin: 8px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-size: 0.82rem;
+}
+
+.v2-notice__mirrors a {
+  color: rgba(255, 255, 255, 0.72) !important;
+  text-decoration: none !important;
+}
+
+.v2-notice__mirrors a:hover,
+.v2-notice__mirrors a:focus-visible {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+@media (max-width: 575px) {
+  .v2-notice__card {
+    padding: 20px 18px;
+  }
+
+  .v2-notice__title {
+    font-size: 1.25rem;
+  }
+}

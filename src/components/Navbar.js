@@ -1,53 +1,52 @@
-/* eslint-disable no-restricted-globals */
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const { pathname } = useLocation();
 
   const scrollToFunction = (id) => {
-    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    const target = document.getElementById(id);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
     updateExpanded(false);
   };
 
-  // console.log("scrollintoview", window);
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
+  useEffect(() => {
+    // Highlights the nav item matching the section currently in view, and
+    // switches the navbar to its "sticky" style once the page is scrolled.
+    //
+    // Previously both listeners were registered during render, which attached a
+    // brand new handler on every single re-render and never removed any of
+    // them. One effect with a cleanup keeps exactly one of each.
+    function onScroll() {
+      updateNavbar(window.scrollY >= 20);
 
-  // active class on scroll and click event on navbar items
-  const li = document.querySelectorAll(".nav-link");
-  const section = document.querySelectorAll(".activeNavlink");
-  function acvtiveMenu() {
-    let len = section.length;
-    for (let i = 0; i < len; i++) {
-      let sectionTop = section[i].offsetTop;
-      let sectionHeight = section[i].offsetHeight;
-      let variableHeight = sectionHeight / 4;
+      const links = document.querySelectorAll(".nav-link");
+      const sections = document.querySelectorAll(".activeNavlink");
 
-      if (pageYOffset > sectionTop - sectionHeight / 3 + variableHeight) {
-        li.forEach((li) => {
-          li.classList.remove("active");
-        });
-        li[i].classList.add("active");
+      for (let i = 0; i < sections.length; i++) {
+        if (!links[i]) break;
+
+        const sectionTop = sections[i].offsetTop;
+        const sectionHeight = sections[i].offsetHeight;
+        const variableHeight = sectionHeight / 4;
+
+        if (window.pageYOffset > sectionTop - sectionHeight / 3 + variableHeight) {
+          links.forEach((link) => link.classList.remove("active"));
+          links[i].classList.add("active");
+        }
       }
     }
-  }
-  acvtiveMenu();
-  window.addEventListener("scroll", acvtiveMenu);
 
-  window.addEventListener("scroll", scrollHandler);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <Navbar
@@ -73,77 +72,37 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link
-                // as={Link}
-                // to="/"
-                onClick={() => scrollToFunction("scrollHome")}
-              >
-                {/* <span style={pathname === "/" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Home</span> */}
+              <Nav.Link onClick={() => scrollToFunction("scrollHome")}>
                 <span>Home</span>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                // as={Link}
-                // to="/about"
-                onClick={() => scrollToFunction("scrollAbout")}
-              >
-                {/* <span style={pathname === "/about" ? { color: "#0095ff", fontWeight: "bold" } : {}}>About</span> */}
+              <Nav.Link onClick={() => scrollToFunction("scrollAbout")}>
                 <span>About</span>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                // as={Link}
-                // to="/skill"
-                onClick={() => scrollToFunction("scrollSkills")}
-              >
-                {/* <span style={pathname === "/skill" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Skills</span> */}
+              <Nav.Link onClick={() => scrollToFunction("scrollSkills")}>
                 <span>Skills</span>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                // as={Link}
-                // to="/project"
-                onClick={() => scrollToFunction("scrollProjects")}
-              >
-                {/* <span style={pathname === "/project" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Projects</span> */}
+              <Nav.Link onClick={() => scrollToFunction("scrollProjects")}>
                 <span>Projects</span>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                // as={Link}
-                // to="/resume"
-                onClick={() => scrollToFunction("scrollResume")}
-              >
-                {/* <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span> */}
+              <Nav.Link onClick={() => scrollToFunction("scrollResume")}>
                 <span>Resume</span>
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/blog"
-                onClick={() => updateExpanded(false)}
-              >
-                <span style={pathname === "/blog" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Blogs</span>
-              </Nav.Link>
-            </Nav.Item> */}
-
             <Nav.Item>
-              <Nav.Link
-                // as={Link}
-                // to="/contact"
-                onClick={() => scrollToFunction("scrollContact")}
-              >
-                {/* <span style={pathname === "/contact" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Contact</span> */}
+              <Nav.Link onClick={() => scrollToFunction("scrollContact")}>
                 <span>Contact</span>
               </Nav.Link>
             </Nav.Item>

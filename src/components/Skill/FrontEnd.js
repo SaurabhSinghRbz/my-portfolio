@@ -1,5 +1,5 @@
 import React from "react";
-import { SiRedux, SiTailwindcss, SiMaterialUi, SiRedis, SiDocker, SiVuetify, SiMocha } from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiMui, SiRedis, SiDocker, SiVuetify, SiMocha } from "react-icons/si";
 import { FaJava, FaVuejs } from "react-icons/fa";
 import { DiHtml5, DiCss3, DiReact, DiBootstrap, DiJavascript1, DiMongodb, DiNodejs } from "react-icons/di";
 function FrontEnd() {
@@ -96,7 +96,7 @@ function FrontEnd() {
 
             {/* Material UI */}
             <div className="tech-icons">
-                <SiMaterialUi /><p>MaterialUi</p>
+                <SiMui /><p>MaterialUi</p>
             </div>
 
             {/* Chakra UI */}

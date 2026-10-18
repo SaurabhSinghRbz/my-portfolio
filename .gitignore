@@ -27,3 +27,9 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+# Firebase deploy cache
+.firebase/
+
+# Vercel
+.vercel

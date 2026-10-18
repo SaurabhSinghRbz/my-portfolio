@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import Particle from "../Particle";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
@@ -17,7 +16,6 @@ function Contact() {
   const [message, setMessage] = React.useState(false);
   return (
     <div className="contact-background activeNavlink" id="scrollContact">
-      {/* <Particle /> */}
       <Container fluid className="home-contect-section" id="about">
         <Row>
           <Col md={12} className="home-about-social">

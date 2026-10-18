@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
+# Archived v1 portfolio. Current site: https://iamsaurabh.in
 User-agent: *
-Disallow:
+Allow: /

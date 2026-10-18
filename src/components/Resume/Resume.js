@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-// import Particle2 from "../Particle2";
 import Resumecontent from "./ResumeContent";
 import pdf from "../../Assets/Saurabh_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -10,7 +9,6 @@ import { FiExternalLink } from "react-icons/fi";
 function Resume() {
   return (
     <div className="resume-background activeNavlink" id="scrollResume">
-      {/* <Particle2 /> */}
       <Container fluid className="resume-section">
         <Container>
           <Row style={{ justifyContent: "center", position: "relative" }}>

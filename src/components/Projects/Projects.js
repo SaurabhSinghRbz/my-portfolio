@@ -1,13 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-// import Particle2 from "../Particle2";
 
 
 import coSchedule from "../../Assets/Projects/coSchedule.png";
 import spotify from "../../Assets/Projects/Spotify.png";
 import indiaToday from "../../Assets/Projects/indiaToday.png";
 import meanBuy from "../../Assets/Projects/meanBuy.png";
+// Kept for the "All Country Details" card further down, currently commented out.
+// eslint-disable-next-line no-unused-vars
 import countryDetails from "../../Assets/Projects/countryDetails.png";
 import fitnessClub from "../../Assets/Projects/fitnessClub.png";
 import weatherForecast from "../../Assets/Projects/weatherForecast.png";
@@ -16,7 +17,6 @@ import ticTacToe from "../../Assets/Projects/ticTacToe.png";
 function Projects() {
   return (
     <div className="project-background activeNavlink" id="scrollProjects">
-      {/* <Particle2 /> */}
       <Container fluid className="project-section">
         <Container>
           <h1 className="project-heading">
