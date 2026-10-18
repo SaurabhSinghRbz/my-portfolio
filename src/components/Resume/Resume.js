@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Saurabh_Resume.pdf";
+import { CURRENT_PROFILE } from "../../config/portfolioVersions";
 import { AiOutlineDownload } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -12,16 +12,26 @@ function Resume() {
       <Container fluid className="resume-section">
         <Container>
           <Row style={{ justifyContent: "center", position: "relative" }}>
-            <Button variant="primary" href={pdf} target="_blank">
+            <Button variant="primary" href={CURRENT_PROFILE.resumeUrl} target="_blank" rel="noopener noreferrer">
               <AiOutlineDownload />
-              &nbsp;Download CV
+              &nbsp;Download latest CV
             </Button>
           </Row>
           <Row className="resume">
             <Col md={6} className="resume-left">
 
+              {/* Professional experience — current, from config/portfolioVersions.js */}
+              <h3 className="resume-title">Experience</h3>
+              {CURRENT_PROFILE.experience.map((job) => (
+                <Resumecontent
+                  key={job.title}
+                  title={job.title}
+                  content={[job.period, ...job.points]}
+                />
+              ))}
+
               {/* Masai trainee part ------------> */}
-              <h3 className="resume-title">Trainee</h3>
+              <h3 className="resume-title">Training</h3>
               <Resumecontent
                 title="Full Stack Web Developer [Masai School]"
                 // date="2022 – Present"
@@ -124,6 +134,13 @@ function Resume() {
               {/* education section ----------------------- */}
               <h3 className="resume-title">Education</h3>
               <Resumecontent
+                title="Amrita Vishwa Vidyapeetham"
+                content={[
+                  "Date - (2024) - (2026) · in progress",
+                  "B.C.A., Information Technology — alongside full-time work",
+                ]}
+              />
+              <Resumecontent
                 title="Government Polytechnic Lucknow, Lucknow (U.P.)"
                 // date="2019 - 2022"
                 content={[
@@ -159,9 +176,9 @@ function Resume() {
             </Col>
           </Row>
           <Row style={{ justifyContent: "center", position: "relative" }}>
-            <Button variant="primary" href={pdf} target="_blank">
+            <Button variant="primary" href={CURRENT_PROFILE.resumeUrl} target="_blank" rel="noopener noreferrer">
               <AiOutlineDownload />
-              &nbsp;Download CV
+              &nbsp;Download latest CV
             </Button>
           </Row>
         </Container>

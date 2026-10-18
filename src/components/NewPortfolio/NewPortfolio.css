@@ -4,6 +4,10 @@
 
 :root {
   --v2-banner-height: 46px;
+  /* Design minimum only. --v2-banner-height is overwritten by V2Banner.js with the
+     measured height, so min-height must NOT read it — that fed the measurement
+     back into itself and the banner could only ever grow. */
+  --v2-banner-min: 46px;
   --v2-accent: #0095ff;
 }
 
@@ -15,7 +19,7 @@
   left: 0;
   right: 0;
   z-index: 1100; /* above the bootstrap fixed-top navbar (1030) */
-  min-height: var(--v2-banner-height);
+  min-height: var(--v2-banner-min);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,9 +105,21 @@ body.v2-banner-open .sticky {
   top: var(--v2-banner-height) !important;
 }
 
+/* ...and push the hero down by the same amount so the navbar never covers it. */
+body.v2-banner-open .home-content {
+  padding-top: calc(9rem + var(--v2-banner-height)) !important;
+}
+
+@media (max-width: 767px) {
+  body.v2-banner-open .home-content {
+    padding-top: calc(4rem + var(--v2-banner-height)) !important;
+  }
+}
+
 @media (max-width: 767px) {
   :root {
     --v2-banner-height: 62px;
+    --v2-banner-min: 62px;
   }
 
   .v2-banner {

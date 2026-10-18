@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+import { CURRENT_PROFILE } from "../../config/portfolioVersions";
 
 
 import coSchedule from "../../Assets/Projects/coSchedule.png";
@@ -20,10 +21,14 @@ function Projects() {
       <Container fluid className="project-section">
         <Container>
           <h1 className="project-heading">
-            My Recent <strong className="purple">Projects </strong>
+            Early <strong className="purple">Projects </strong>
           </h1>
           <p style={{ color: "white" }}>
-            Here are a few projects I've worked on recently.
+            Built in 2021–22 while retraining at Masai School — kept here as a record. My production work (payments, queues, gift cards) is on{" "}
+            <a className="purple" href={CURRENT_PROFILE.workUrl} target="_blank" rel="noopener noreferrer">
+              iamsaurabh.in/work
+            </a>
+            .
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 

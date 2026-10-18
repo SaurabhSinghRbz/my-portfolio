@@ -50,7 +50,7 @@ function Contact() {
                   className="link-text-css"
                   onClick={() => setModalShow(true)}
                 >
-                  singhsaurabh1622000@gmail.com
+                  hello@iamsaurabh.in
                   <span style={{ opacity: 0 }}></span>
                 </span>
               </li>
@@ -91,7 +91,7 @@ function Contact() {
                   rel="noreferrer"
                   href="https://www.linkedin.com/in/saurabhsinghrbz"
                 >
-                  linkedin.com/in/saurabh-singh-rbz1602/
+                  linkedin.com/in/saurabhsinghrbz
                   <span style={{ opacity: 0 }}>||</span>
                 </a>
               </li>

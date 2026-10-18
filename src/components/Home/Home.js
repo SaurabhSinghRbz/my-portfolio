@@ -1,4 +1,5 @@
 import React from "react";
+import { CURRENT_PROFILE } from "../../config/portfolioVersions";
 import { Container, Row, Col } from "react-bootstrap";
 import profile from "../../Assets/profile.png";
 import ContectLogo from "./ContectLogo";
@@ -23,7 +24,7 @@ function Home() {
                 <strong className="main-name"> Saurabh Singh</strong>
               </h6>
               <h6 className="sub-heading-name">
-                <strong>FULL STACK WEB DEVELOPER</strong>
+                <strong>{CURRENT_PROFILE.role.toUpperCase()} · PINE LABS</strong>
               </h6>
               <h4 className="sub-heading-name">
                 From
